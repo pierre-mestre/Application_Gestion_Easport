@@ -5,17 +5,18 @@ A sample app with babel, express, node bootstrap and jquery.
 ## Installing project dependencies
 
 ```bash
-yarn install
+npm install
 ```
 
 ## Running tests
 
 ```bash
+JE SAIS PLUS AVEC NPM
 yarn run test
 ```
 
 ## Running the app
 
 ```
-yarn run start
+npm start
 ```
