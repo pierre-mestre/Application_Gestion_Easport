@@ -14,5 +14,5 @@ service:
   - postgresql
 before_script:
   - psql -c 'create database travis_ci_test;' -U postgres
-  - psql -c "CREATE USER posttgres WITH PASSWORD 'blacksalami';"
-  - psql -U postgres -d postgres -a -f ./BDD db.sql
+  - psql -c "CREATE USER postgres WITH PASSWORD 'blacksalami';"
+  - psql -U postgres -d travis_ci_test -Wblacksalami -a -f ./BDD/db.sql
