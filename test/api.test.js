@@ -3,15 +3,15 @@ import app from "../server/app";
 
 describe("Test the post-login", () => {
   test("It should return the logged page", async () => {
-    const expectedJson = {
+    const connectionJson = {
       pseudo: "Eliot",
       password: "test"
     };
 
     const response = await request(app)
       .post("/post-login")
-      .send(expectedJson);
+      .send(connectionJson);
     expect(response.statusCode).toBe(200);
-    expect(response.body).toEqual('<p>Bienvenue</p>');
+    expect(response.body.html).toEqual('<p>Bienvenue</p>');
   });
 });
