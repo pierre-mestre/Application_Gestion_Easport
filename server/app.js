@@ -30,7 +30,7 @@ app.post("/post-login", (req, res) => {
 	pg.query(query, (err, p_res) => {
 		if(err) console.log("Error", err);
 		else {
-			if(p_res.rowCount == 0){
+			if(p_res.rowCount ==0){
 				req.body.html = `<form>
                 <div class="form-group">
                 <label for="username">Nom d'utilisateur</label>
