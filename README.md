@@ -18,5 +18,5 @@ yarn run test
 ## Running the app
 
 ```
-npm run start
+npm start
 ```
