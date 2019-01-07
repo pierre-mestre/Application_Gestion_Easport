@@ -7,7 +7,7 @@
   "homepage": "",
   "scripts": {
     "start": "babel-node server/server.js",
-    "test": "jest test"
+    "test": "jest test --forceExit"
   },
   "dependencies": {
     "babel-cli": "^6.24.0",
