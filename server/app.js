@@ -5,7 +5,12 @@ import db from "./db";
 
 const app = express();
 
-const pg = db.init('postgres', 'localhost', 'mycoach', 'root', 5432);
+var pg;
+if(process.env.TRAVIS_COMMIT){
+	pg = db.init('postgres', 'localhost', 'travis_ci_test', 'root', 5432);	
+} else {
+	pg = db.init('postgres', 'localhost', 'mycoach', 'root', 5432);
+}
 
 app.use("/static/", express.static(__dirname + "/../static/"));
 app.use("/scripts/", express.static(__dirname + "/../scripts/"));
