@@ -8,7 +8,7 @@ body{
 }
 
 #header{
-    background: linear-gradient(to right, #394f81, #0c78b1, #394f81);
+    background: linear-gradient(to right, #000000, #596165, #000000);
     margin: 0;
     padding: 0;
     width: 100%;
@@ -16,7 +16,6 @@ body{
     line-height: 50px;
     border: solid;
     border-color: #ffffff;
-
 }
 #button{
 	float: right;
@@ -45,12 +44,14 @@ body{
 	justify-content: space-between;
 	margin: 10px 10px auto;
 	border: solid;
-	border-color: #6a5298;
+	border-color: #020202;
+	color: white;
 }
 #titre{
 	position: absolute;
 	display: block;
 	left: 50%;
+	margin: 25px auto;
 	transform: translateX(-50%);
 }
 
@@ -61,25 +62,39 @@ body{
     filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='10');
     width: 100%;
     position: relative;
-    margin-top: 50px;
-    padding-top: 300px;
+    margin-top: 0px;
+    padding-top: 350px;
 }
 #bandeau{
 
-background-color: #9a83c5;
+background-color: #323335;
+
 border-radius: 10px;
+
 border : solid;
-border-color: #6a5298;
+
+border-color: #000000;
+
 text-align: center;
+
 width: 90%;
+
 height: 80px;
+
 line-height: 80px;
+
 z-index: 99999999999999999;
+
 margin: 0 auto;
+
 font-family: "Big Noodle Too", impact, sans-serif;
+
 font-size: -webkit-xxx-large;
+
 color: white;
--webkit-text-stroke: 1.5px #6a5298;
+
+-webkit-text-stroke: 1.5px #000000;
+
 text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 #icone{
@@ -87,7 +102,7 @@ text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
 	color: black;
 	border:solid;
 	background-color: black;
-	border-color: #44385a;
+	border-color: black;
 	width: 200px;
 	height: 200px;
 	float: right;
@@ -108,7 +123,7 @@ text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
 	font-family: "Big Noodle Too", impact;
 	font-size: 20px;
 	border: solid;
-	border-color: #6a5298;
+	border-color: #020202;
 	width: 69%;
 	margin: 10px 0px 0px 10px;
 	height: 50px;
@@ -117,13 +132,13 @@ text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     background: linear-gradient(#ff9500, #ff5500);
 }
 .inscription:hover {
-    background: linear-gradient(#6a5298, #1d0b3d);
+    background: linear-gradient(#ccc9c9, #777677);
 }
 .connexion {
-    background: linear-gradient(#53efd9, #0e7aad);
+    background: linear-gradient(#282c2e, #565353);
 }
 .connexion:hover {
-    background: linear-gradient(#6a5298, #1d0b3d);
+    background: linear-gradient(#ccc9c9, #777677);
 }
 .inputs input {
 	font-family: "Big Noodle Too", impact;
@@ -134,17 +149,13 @@ text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
 }
 
 .backvideo{
-	width: 95%;
+	width: 100%;
 	position: absolute;
 	left: 50%;
 	top: 0;
 	transform: translateX(-50%);
 	z-index: -1;
-	filter: blur(10px);
-	-webkit-filter: blur(10px);
-	-moz-filter: blur(10px);
-	-o-filter: blur(10px);
-	-ms-filter: blur(10px);
+	
 }
 
 
@@ -156,26 +167,17 @@ text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
 
 .w-25 {
 	width: 29%;
-	background-color: #9a83c5;
+	background-color: #323335;
 	border-radius: 10px;
 	border : solid;
-	border-color: #6a5298;
+	border-color: #020202;
 }
 
 .w-75 {
 	width: 69%;
-	background-color: #9a83c5;
+	background-color: #323335;
 	border-radius: 10px;
 	border : solid;
-	border-color: #6a5298;
+	border-color: #020202;
 }
-.filtre{
-text-align: center;
-margin: 0 auto;
-font-family: "Big Noodle Too", impact, sans-serif;
-font-size: 45px;
-color: white;
--webkit-text-stroke: 1.5px #6a5298;
-text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-
-}
+.filtre{text-align: center;margin: 0 auto;font-family: "Big Noodle Too", impact, sans-serif;font-size: 45px;color: white;-webkit-text-stroke: 1.5px #020202;text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;}
