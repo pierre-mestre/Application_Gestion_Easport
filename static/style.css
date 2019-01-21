@@ -24,18 +24,28 @@ body{
 	height: 50px;
 	line-height: 50px;
 	font-weight: normal;
+	border-right: solid;
+	border-left: solid;
+	border-color:  white;
 	font-size: 25px;
+	text-decoration-color: white;
+	color: white;
+	text-align: center;
+	text-decoration: none;
 	font-family: "Big Noodle Too", impact, sans-serif;
 }
+
 #button2{
 	float: right;
 	width: 24%;
-	height: 37px;
+	height: 50px;
 	font-weight: normal;
 	font-family: "Big Noodle Too", impact, sans-serif;
 	font-size: larger;
 	justify-content: space-between;
 	margin: 10px 10px auto;
+	border: solid;
+	border-color: #6a5298;
 }
 #titre{
 	position: absolute;
@@ -98,23 +108,29 @@ text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
 	font-family: "Big Noodle Too", impact;
 	font-size: 20px;
 	border: solid;
-	border-color: white;
+	border-color: #6a5298;
 	width: 69%;
 	margin: 10px 0px 0px 10px;
-	height: 35px;
+	height: 50px;
 }
 .inscription {
     background: linear-gradient(#ff9500, #ff5500);
 }
-
+.inscription:hover {
+    background: linear-gradient(#6a5298, #1d0b3d);
+}
 .connexion {
     background: linear-gradient(#53efd9, #0e7aad);
+}
+.connexion:hover {
+    background: linear-gradient(#6a5298, #1d0b3d);
 }
 .inputs input {
 	font-family: "Big Noodle Too", impact;
 	font-size: 20px;
 	border: solid;
 	border-color: white;
+	vertical-align: middle;
 }
 
 .backvideo{
