@@ -13,8 +13,8 @@ $(document).ready(function() {
         })
             .then(response => response.json())
             .then(json => {
-                if(json.html == null) return;
-                $("#login").html(json.html)
+                if(!json.connected) return;
+                window.location.replace(`${window.location.origin}/huehue`);
             }); // parses response to JSON
     });
 
@@ -23,7 +23,6 @@ $(document).ready(function() {
     });
 
     let onChange = function(){
-        console.log('hue');
         if($('#username').val() != '' && $('#password').val() != '')
             $('#login-submit').attr('disabled', false);
         else

@@ -8,10 +8,10 @@ module.exports = {
 			if(err) console.log("Error", err);
 			else {
 				if(p_res.rowCount ==0){
-					req.body.html = null;
+					req.body.connected = false;
 				} else {
-					req.body.html = '<p>Bienvenue ' + req.body.pseudo + '</p>';
-
+					req.session.pseudo = req.body.pseudo
+					req.body.connected = true;
 				}
 				res.set("Content-Type", "application/json");
 				res.send(req.body);

@@ -15,7 +15,7 @@ app.use(session({
   genid: (req) => 
 {    return uuid() // generate unique session id with UUID
   },
-  secret: 'coachhots145823',
+  secret: 'coachhots21328',
   resave: false,
   saveUninitialized: true
 }));
