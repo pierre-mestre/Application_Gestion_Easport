@@ -13,6 +13,7 @@ if(process.env.TRAVIS_COMMIT){
 }
 
 app.use("/static/", express.static(__dirname + "/../static/"));
+app.use("/IMAGE/", express.static(__dirname + "/../static/IMAGE"));
 app.use("/scripts/", express.static(__dirname + "/../scripts/"));
 
 // Json parsing

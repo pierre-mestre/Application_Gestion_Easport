@@ -33,7 +33,9 @@ body{
 	height: 37px;
 	font-weight: normal;
 	font-family: "Big Noodle Too", impact, sans-serif;
+	font-size: larger;
 	justify-content: space-between;
+	margin: 10px 10px auto;
 }
 #titre{
 	position: absolute;
@@ -97,7 +99,8 @@ text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
 	font-size: 20px;
 	border: solid;
 	border-color: white;
-	width: 75%;
+	width: 69%;
+	margin: 10px 0px 0px 10px;
 	height: 35px;
 }
 .inscription {
