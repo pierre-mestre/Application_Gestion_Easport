@@ -2,7 +2,7 @@ body{
 	color:black;
 	margin: 0;
 	padding: 0;
-	background: url(image/fond.jpg) no-repeat center fixed;
+	background: url(IMAGE/fond.jpg) no-repeat center fixed;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
