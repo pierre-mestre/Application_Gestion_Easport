@@ -1,12 +1,12 @@
 module.exports = {
-	init: function(u, h, db, pw, prt) {
+	init: function() {
 		const {Client} = require('pg')
 		return new Client({
-		  user: u,
-		  host: h,
-		  database: db,
-		  password: pw,
-		  port: prt,
+		  user: 'postgres',
+		  host: 'localhost',
+		  database: 'mycoach',
+		  password: 'root',
+		  port: 5432,
 		});
 	}
 }
