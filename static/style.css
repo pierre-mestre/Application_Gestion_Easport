@@ -36,13 +36,13 @@ body{
 
 #button2{
 	float: right;
-	width: 24%;
+	width: 27%;
 	height: 50px;
 	font-weight: normal;
 	font-family: "Big Noodle Too", impact, sans-serif;
-	font-size: larger;
-	justify-content: space-between;
-	margin: 10px 10px auto;
+	font-size: 18px;
+	/* justify-content: space-between; */
+	/* margin: 10px 10px auto; */
 	border: solid;
 	border-color: #020202;
 	color: white;
@@ -115,17 +115,21 @@ text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     width: 90%;
     margin: 20px auto;
 }
+#mp{
+
+}
 .inputs {
 	float: right;
 	margin-right: 20px;
 }
+
 .inputs2 input {
 	font-family: "Big Noodle Too", impact;
 	font-size: 20px;
 	border: solid;
 	border-color: #020202;
-	width: 69%;
-	margin: 10px 0px 0px 10px;
+	width: 71%;
+	/*margin: 10px 10px 10px 10px;*/
 	height: 50px;
 }
 .inscription {
@@ -147,7 +151,18 @@ text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
 	border-color: white;
 	vertical-align: middle;
 }
-
+#entete{
+ text-align: center;
+ border: solid;
+ border-radius: 10px;
+ background-color: grey;
+ color: white;
+ border-color: black;
+ height: 50px;
+ width: 100%;
+ line-height: 50px;
+ margin-top: -150px;
+}
 .backvideo{
 	width: 100%;
 	position: absolute;
@@ -157,8 +172,21 @@ text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
 	z-index: -1;
 	
 }
+.filtre{
+	color: white;
+	text-align: center;
+	font-family: "Big Noodle Too", impact, sans-serif;
+	font-size: -webkit-xxx-large;
+	color: white;
+	margin-top: 0;
+	margin-bottom: 0;
+	-webkit-text-stroke: 1.5px #000000;
+	text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
 
-
+.block{
+	margin: 10px 10px 10px;
+}
 
 .content {
 	background: red;
@@ -180,4 +208,3 @@ text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
 	border : solid;
 	border-color: #020202;
 }
-.filtre{text-align: center;margin: 0 auto;font-family: "Big Noodle Too", impact, sans-serif;font-size: 45px;color: white;-webkit-text-stroke: 1.5px #020202;text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;}
