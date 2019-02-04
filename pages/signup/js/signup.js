@@ -16,7 +16,13 @@ $(document).ready(function() {
         })
             .then(response => response.json())
             .then(json => {
-                alert('HELLO WORLD');
+                if(json.success){
+                    alert('Votre compte a bien été créé.');
+                    window.location.replace(`${window.location.origin}/login`);
+                } else {
+                    $(`#${json.err}`).css('color', 'red');
+                    alert('Cette adresse mail est déjà utilisée.');
+                }
             }); // parses response to JSON
     });
 

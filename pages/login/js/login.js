@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $('#login').on('click', '#login-submit', function () {
         var data = {
-            pseudo: $("#username").val(),
+            email: $("#username").val(),
             password: $("#password").val()
         };
         fetch("/login/post_login", {

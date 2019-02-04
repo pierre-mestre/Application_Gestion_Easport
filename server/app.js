@@ -3,7 +3,7 @@ import express from "express";
 import session from "express-session";
 import bodyParser from "body-parser";
 import uuid from "uuid/v4";
-import db from "./db";
+import dao from "./db_routes";
 
 const app = express();
 
@@ -15,16 +15,13 @@ app.use(session({
   genid: (req) => 
 {    return uuid() // generate unique session id with UUID
   },
-  secret: 'coachhots21328',
+  secret: 'coachow21328',
   resave: false,
   saveUninitialized: true
 }));
 
 // Json parsing
 app.use(bodyParser.json());
-
-const pg = db.init();
-pg.connect();
 
 var getIndex = function(content){
 	var index = `<!DOCTYPE html>
@@ -72,7 +69,7 @@ var setPages = function(itemsPath){
     			Object.values(listPages[element]).forEach(function(postFunc){
     				if(typeof postFunc !== 'function') return;
     				if(postFunc.name !== element) url += `/${postFunc.name}`;
-    				app.post(url, function(req, res){ postFunc(req, res, pg, element) });
+    				app.post(url, function(req, res){ postFunc(req, res, dao, element) });
     			});
     		}
 
