@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link href="/css/style.css" rel="stylesheet" media="all" type="text/css"> 
+        <title>Login</title>
+    </head>
+   <body>  
+    	   <p>Pseudo: <%= data.username %></p>
+         <p>Niveau: <%= data.level %></p>
+         <p>Parties normales gagnées: <%= data.games.quickplay.won %></p>
+         
+         <p>Rang: <%= data.competitive.rank %></p>
+         <p>Nombre de parties compétitives jouées: <%= data.games.competitive.played %></p>
+         <p>dont <%= data.games.competitive.won %> parties gagnées et <%= data.games.competitive.lost %> perdues.</p> 
+
+         <p>Temps de jeu :</p>
+         <ul>
+            <li>Parties normales: <%= data.playtime.quickplay %></li>
+            <li>Parties clasées: <%= data.playtime.competitive %></li>
+         </ul>
+
+    </body>
+</html>
