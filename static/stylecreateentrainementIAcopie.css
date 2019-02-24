@@ -11,15 +11,15 @@ body{
 }
 
 #header{
-    background: linear-gradient(to right, #000000, #596165, #000000);
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 50px;
-    line-height: 50px;
-    border: solid;
-    border-color: #ffffff;
-    box-sizing: border-box;
+	background: linear-gradient(to right, #000000, #596165, #000000);
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	border: solid;
+	border-color: #ffffff;
+	box-sizing: border-box;
 }
 #button{
 	float: right;
@@ -74,75 +74,75 @@ body{
 }
 
 #blurred{
-    -moz-filter: blur(10px);
-    -o-filter: blur(10px);
-    -ms-filter: blur(10px);
-    filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='10');
-   
-   width: 100%;
-    position: relative;
-    margin-top: 0px;
-    padding-top: 0px;
+	-moz-filter: blur(10px);
+	-o-filter: blur(10px);
+	-ms-filter: blur(10px);
+	filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='10');
+
+	width: 100%;
+	position: relative;
+	margin-top: 0px;
+	padding-top: 0px;
 	grid-template-columns: 25% 48% 25%;
-    display: inline-grid;
-    justify-content:  center;
-    align-items: flex-end;
-
-      
+	display: inline-grid;
+	justify-content:  center;
+	align-items: flex-end;
 
 
 
 
 
-     
+
+
+
 	
 }
 #blurred10{
-    -moz-filter: blur(10px);
-    -o-filter: blur(10px);
-    -ms-filter: blur(10px);
-    filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='10');
-   
-   width: 100%;
-    position: relative;
-    margin-top: 0px;
-    padding-top: 0px;
+	-moz-filter: blur(10px);
+	-o-filter: blur(10px);
+	-ms-filter: blur(10px);
+	filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='10');
+
+	width: 100%;
+	position: relative;
+	margin-top: 0px;
+	padding-top: 0px;
 	grid-template-columns: 25% 48% 25%;
-    display: inline-grid;
-    justify-content:  center;
-    align-items: start;
+	display: inline-grid;
+	justify-content:  center;
+	align-items: start;
 }
 #bandeau{
 
-background-color: #323335;
+	background-color: #323335;
 
-border-radius: 10px;
+	border-radius: 10px;
 
-border : solid;
+	border : solid;
 
-border-color: #000000;
+	border-color: #000000;
 
-text-align: center;
+	text-align: center;
 
-width: 90%;
+	width: 90%;
 
-height: 80px;
+	height: 80px;
 
-line-height: 80px;
+	line-height: 80px;
 
-z-index: 10;
+	z-index: 10;
 
-margin: 0 auto;
+	margin: 0 auto;
 
-font-family: "Big Noodle Too", impact, sans-serif;
+	font-family: "Big Noodle Too", impact, sans-serif;
 
-font-size: -webkit-xxx-large;
+	font-size: -webkit-xxx-large;
 
-color: white;
+	color: white;
 
--webkit-text-stroke: 1.5px #000000;
+	-webkit-text-stroke: 1.5px #000000;
 
-text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 #icone{
 	border-radius: 50%;
@@ -157,10 +157,10 @@ text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
 	margin-bottom: 3%;
 }
 #container {
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    margin: 20px auto;
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	margin: 20px auto;
 }
 #mp{
 
@@ -181,16 +181,16 @@ text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
 	height: 50px;
 }
 .inscription {
-    background: linear-gradient(#ff9500, #ff5500);
+	background: linear-gradient(#ff9500, #ff5500);
 }
 .inscription:hover {
-    background: linear-gradient(#ccc9c9, #777677);
+	background: linear-gradient(#ccc9c9, #777677);
 }
 .connexion {
-    background: linear-gradient(#282c2e, #565353);
+	background: linear-gradient(#282c2e, #565353);
 }
 .connexion:hover {
-    background: linear-gradient(#ccc9c9, #777677);
+	background: linear-gradient(#ccc9c9, #777677);
 }
 .inputs input {
 	font-family: "Big Noodle Too", impact;
@@ -200,7 +200,7 @@ text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
 	vertical-align: middle;
 }
 #entete{
- 
+
 }
 .backvideo{
 	width: 100%;
@@ -219,14 +219,25 @@ text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
 	color: white;
 	text-align: center;
 	font-family: "Big Noodle Too", impact, sans-serif;
-	font-size: -webkit-xxx-large;
+	font-size: xx-large;
 	color: white;
 	margin-top: 0;
 	margin-bottom: 0;
 	-webkit-text-stroke: 1.5px #000000;
 	text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
-
+.filtre8{
+	color: white;
+	text-align: center;
+	font-family: "Big Noodle Too", impact, sans-serif;
+	font-size: xx-large;
+	color: white;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin: 15px auto -10px auto;
+	-webkit-text-stroke: 1.5px #000000;
+	text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
 .block{
 	margin: 10px 10px 10px;
 }
@@ -291,19 +302,19 @@ text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
 	grid-column: 1 / 2;
 	grid-row: 1; 
 	padding: 10px;
-	  overflow: auto;
-	   	text-align: center;
-	   	height: fit-content;
+	overflow: auto;
+	text-align: center;
+	height: fit-content;
 
 
 	
-	}
+}
 .deux{
 	grid-column: 1 / 2;
 	grid-row: 2;
-	  overflow: auto;
-	  height: fit-content;
-	  	text-align: center;
+	overflow: auto;
+	height: fit-content;
+	text-align: center;
 
 }
 .trois{
@@ -319,27 +330,27 @@ text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
 	overflow: auto;
 	height: fit-content;
 	align-items: center;
-		width:97%;
+	width:97%;
 
 }
 .quatre{
-  grid-column: 2 / 3;
-  grid-row: 2;
-    overflow: auto;
-    height: fit-content;
+	grid-column: 2 / 3;
+	grid-row: 2;
+	overflow: auto;
+	height: fit-content;
 
 }
 .cinq{
-  grid-column: 3 / 4;
-  grid-row: 1;
-  overflow: auto;
-  align-items: end;
+	grid-column: 3 / 4;
+	grid-row: 1;
+	overflow: auto;
+	align-items: end;
 }
 .six{
- grid-column: 3 / 4;
- grid-row: 2;
-   overflow: auto;
-   height: fit-content;
+	grid-column: 3 / 4;
+	grid-row: 2;
+	overflow: auto;
+	height: fit-content;
 
 }
 .noir{
@@ -352,35 +363,35 @@ text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
 	border-color: black;
 	color: white;
 	font-family: bold;
-	text-align: center;
 	margin: 10px;
+	text-align: center;
 }
 .unun{
 
-text-align: center;
+	text-align: center;
 
-color: white;
-  overflow: auto;
+	color: white;
+	overflow: auto;
 
-height: auto;
+	height: auto;
 
-width: auto;
+	width: auto;
 
-line-height: auto;
+	line-height: auto;
 
-font-family: "Big Noodle Too", impact, sans-serif;
+	font-family: "Big Noodle Too", impact, sans-serif;
 
-margin: auto;
+	margin: auto;
 
--webkit-text-stroke: 1.5px #000000;
+	-webkit-text-stroke: 1.5px #000000;
 
-text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 
-grid-column: 2 / 4;
+	grid-column: 2 / 4;
 
-grid-row: 1;
+	grid-row: 1;
 
-font-size: xx-large;
+	font-size: xx-large;
 }
 .deconnexion{
 	background: linear-gradient(#b7b5b3, #5a5857);
@@ -398,8 +409,8 @@ font-size: xx-large;
 }
 
 .deconnexion:hover {
-	 background: linear-gradient(#ef8e8e, #f9220c);
-	 	text-shadow: none;
+	background: linear-gradient(#ef8e8e, #f9220c);
+	text-shadow: none;
 
 }
 .ajout{
@@ -418,8 +429,8 @@ font-size: xx-large;
 }
 
 .ajout:hover {
-	 background: linear-gradient(#98d1e6, #0cacf9);
-	 text-shadow: none;
+	background: linear-gradient(#98d1e6, #0cacf9);
+	text-shadow: none;
 }
 .ajout1{
 	background: linear-gradient(#b7b5b3, #5a5857);
@@ -437,8 +448,8 @@ font-size: xx-large;
 }
 
 .ajout1:hover {
-	 background:  linear-gradient(#cc98e6, #800e88);
-	 text-shadow: none;
+	background:  linear-gradient(#cc98e6, #800e88);
+	text-shadow: none;
 }
 #avatar{
 	border-radius: 50%;
@@ -468,7 +479,7 @@ font-size: xx-large;
 }
 .droite{
 	
-text-align: center;
+	text-align: center;
 }
 .i{
 	display: block;
@@ -481,34 +492,34 @@ text-align: center;
 
 
 	
-	}
+}
 .deuxi{
 	grid-column: 1 / 2;
 	grid-row: 2;
-	  overflow: auto;
+	overflow: auto;
 
 }
 .troisi{
 	grid-column: 2 / 3;
 	grid-row: -1;
-	  overflow: auto;
+	overflow: auto;
 
 }
 .quatrei{
-  grid-column: 2 / 3;
-  grid-row: 2;
-    overflow: auto;
+	grid-column: 2 / 3;
+	grid-row: 2;
+	overflow: auto;
 
 }
 .cinqi{
-  grid-column: 4 / 4;
-  grid-row: 1;
-  overflow: auto;
+	grid-column: 4 / 4;
+	grid-row: 1;
+	overflow: auto;
 }
 .sixi{
- grid-column: 3 / 4;
- grid-row: 2;
- overflow: auto;
+	grid-column: 3 / 4;
+	grid-row: 2;
+	overflow: auto;
 }
 
 .ti{
@@ -542,8 +553,8 @@ text-align: center;
 	grid-column: 2 / 3;
 }
 .j{
-		display: block;
-		display: inline-grid;
+	display: block;
+	display: inline-grid;
 
 }
 .j0{
@@ -551,15 +562,15 @@ text-align: center;
 	grid-column: 1 / 2;
 	margin: 0;
 	
-	 
+
 
 }
 /* Aspect des checkboxes */
-/* :before sert Ã  crÃ©er la case Ã  cocher */
- .check{
-  margin-right: 10px;
+/* :before sert ÃƒÂ  crÃƒÂ©er la case ÃƒÂ  cocher */
+.check{
+	margin-right: 10px;
 }
- 
+
 
 }
 .j2{
@@ -583,21 +594,21 @@ text-align: center;
 }
 .j7{
 
-grid-column: 6 / 7;
+	grid-column: 6 / 7;
 
-justify-items: center;
+	justify-items: center;
 }
 .j{
-		display: block;
-		display: inline-grid;
-		justify-items: center;
+	display: block;
+	display: inline-grid;
+	justify-items: center;
 
 }
 .jj{
-		display: inline-grid;
-		float: center;
-		padding: 0%;
-		margin: 0;
+	display: inline-grid;
+	float: center;
+	padding: 0%;
+	margin: 0;
 }
 .rondb{width: 30px;height: 30px;background-size: 100%;display: block;border: 2px solid;border-radius: 147px;background: url(IMAGE/fond.jpg) no-repeat center fixed;margin-left: 5px;margin-right: 5px;margin-top: auto;margin-bottom: auto;border-color: #1d1163c7;}
 .rondr{width: 30px;height: 30px;background-size: 100%;display: block;border: 2px solid;border-radius: 147px;background: url(IMAGE/fond.jpg) no-repeat center fixed;margin-left: 5px;margin-right: 5px;margin-top: auto;margin-bottom: auto;border-color: #9a0b0b;}
@@ -662,94 +673,99 @@ justify-items: center;
 	margin: 10px 15px 10px 10px;
 }
 .container {
-  display: block;
-  position: relative;
-  padding-left: 35px;
-  margin-bottom: 12px;
-  cursor: pointer;
-  font-size: 22px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+	display: block;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 22px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 .container {
-  display: block;
-  position: relative;
-  padding-left: 35px;
-  margin-bottom: 12px;
-  cursor: pointer;
-  font-size: 22px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+	display: block;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 22px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 /* Hide the browser's default radio button */
 .container input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-  height: 0;
-  width: 0;
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
 }
 
 /* Create a custom radio button */
 .checkmark {
-  position: absolute;
-  top: 0;
-  margin-top: -35px;
-  left: 0;
-  height: 25px;
-  width: 25px;
-  background-color: #eee;
-  border-radius: 50%;
-  border: solid;
-  border-color: #0e3f7d;
+	position: absolute;
+	top: 0;
+	margin-top: -35px;
+	left: 0;
+	height: 25px;
+	width: 25px;
+	background-color: #eee;
+	border-radius: 50%;
+	border: solid;
+	border-color: #0e3f7d;
 }
 
 /* On mouse-over, add a grey background color */
 .container:hover input ~ .checkmark {
-  background-color: #ccc;
+	background-color: #ccc;
 }
 
 /* When the radio button is checked, add a blue background */
 .container input:checked ~ .checkmark {
-  background-color: #3fff00;
-  border: solid;
-  border-color: #0e3f7d;
-  margin-left: 0px;
+	background-color: #3fff00;
+	border: solid;
+	border-color: #0e3f7d;
+	margin-left: 0px;
 }
 
 /* Create the indicator (the dot/circle - hidden when not checked) */
 .checkmark:after {
 
-  position: absolute;
-  display: none;
+	position: absolute;
+	display: none;
 }
 
 /* Show the indicator (dot/circle) when checked */
 .container input:checked ~ .checkmark:after {
-  display: block;
-  content: ""
+	display: block;
+	content: ""
 }
 
 /* Style the indicator (dot/circle) */
 .container .checkmark:after {
-  top: 9px;
-  left: 9px;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: #ffffff;
+	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: #ffffff;
 }
 
 .aa{
 	display: inline-grid;
 	justify-items: center;
 	width: 97%;
+}
+.aka{
+	display: inline-grid;
+	justify-items: center;
+	
 }
 .aaa{
 	display: inline-grid;
@@ -765,11 +781,11 @@ justify-items: center;
 	grid-column: 2 / 3;
 }
 .rr{
-	  align-items: center;
+	align-items: center;
 }
 .ss{
 	display: inline-grid;
-  align-items: end;
+	align-items: end;
 
 }
 .oo{
@@ -777,8 +793,15 @@ justify-items: center;
 	grid-column: 2 / 3;
 	font-size: 25px;
 }
+.ooo{
+	margin: 15px;
+	justify-items: center;
+	grid-column: 2 / 3;
+	text-decoration: underline;
+	font-size: xx-large;
+}
 .zz{
-		grid-column: 1 / 2;
+	grid-column: 1 / 2;
 
 }
 .trait{
@@ -793,12 +816,21 @@ justify-items: center;
 }
 .bleu{
 	grid-column: 1 / 2;
-		background: linear-gradient(to right, #2381c3, #64c1d6, #2381c3);
-		border-color: #0e3f7d;
+	background: linear-gradient(to right, #2381c3, #64c1d6, #2381c3);
+	border-color: #0e3f7d;
 
 }
+.bleua{
+	
+	background: linear-gradient(to right, #656362, #f2f0f3, #656362);
+	
+	border-color: #403d3c;
+}
 #trait_dessus { color:#ffff; width : 100%; }
+#trait_dessuss { color:#ffff; width : 100%; }
 hr.bleu{height: 2px;border-color: #0e3f7d;background: #0e3f7d;}
+hr.gris{height: 2px;border-color: #868686;background: #403d3c;}
+
 hr.rouge{height: 2px;border-color: #9a0b0b;background: #9a0b0b;}
 .rondn{width: 75px;height: 75px;background-size: 100%;display: block;border: 4px solid;border-radius: 147px;background: url(IMAGE/fond.jpg) no-repeat center fixed;margin-left: 5px;margin-right: 5px;margin-top: auto;margin-bottom: auto;border-color: #000000;}
 .n1{
@@ -826,7 +858,7 @@ hr.rouge{height: 2px;border-color: #9a0b0b;background: #9a0b0b;}
 	background: #7cc8ff;
 }
 .n1:hover{
-background: #808dc1;
+	background: #808dc1;
 }
 .n2:hover{
 	background: #808dc1;
@@ -847,7 +879,7 @@ background: #808dc1;
 	margin-bottom: 15px;
 }
 .ww{
-		justify-items: center;
+	justify-items: center;
 
 }
 .w1{
@@ -880,31 +912,18 @@ background: #808dc1;
 }
 
 
-.T1{
-	grid-column: 1 / 2;
-	justify-items: center;
+.equipa{
+	width: 90%;
 }
-.T2{
-	grid-column: 2 / 3;
-	justify-items: center;
-}
-.t3{
+.yy{
+	margin: 15px;
 	grid-column: 3 / 4;
-	justify-items: center;
+	font-size: 25px;
 }
-.T4{
-	grid-column: 5 / 6;
-	justify-items: center;
+ul.a {
+	list-style-type: circle;
 }
-.T5{
-	grid-column: 6 / 7;
-	justify-items: center;
-}
-.T6{
-	grid-column: 7 / 8;
-	justify-items: center;
-}
-
-.ja{
-	width: 100%;
+.ara{
+	margin: 0;
+	font-size: x-large;
 }
