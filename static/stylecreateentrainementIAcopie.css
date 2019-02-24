@@ -315,8 +315,7 @@ body{
 	overflow: auto;
 	height: fit-content;
 	text-align: center;
-
-}
+	}
 .trois{
 	grid-column: 2 / 3;
 	grid-row: -1;
@@ -566,7 +565,7 @@ body{
 
 }
 /* Aspect des checkboxes */
-/* :before sert ÃƒÂ  crÃƒÂ©er la case ÃƒÂ  cocher */
+/* :before sert ÃƒÆ’Ã‚Â  crÃƒÆ’Ã‚Â©er la case ÃƒÆ’Ã‚Â  cocher */
 .check{
 	margin-right: 10px;
 }
@@ -926,4 +925,74 @@ ul.a {
 .ara{
 	margin: 0;
 	font-size: x-large;
+}
+.datahour{
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+.date{
+
+margin: 5px;
+
+border: 8px solid;
+
+border-radius: 10px;
+
+width: auto;
+
+text-align: center;
+
+border-color: #5f5858;
+
+color: #989898;
+
+font-size: x-large;
+
+align-items: center;
+
+align-content: center;
+
+align-self: center;
+
+text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+font-family: "Big Noodle Too", impact, sans-serif;
+
+background-color: #d4d4d4;
+}
+.date:hover{
+
+
+
+border: 8px solid;
+
+border-radius: 10px;
+
+width: auto;
+
+text-align: center;
+
+border-color: #989898;
+
+color: black;
+
+font-size: x-large;
+
+align-items: center;
+
+align-content: center;
+
+align-self: center;
+
+text-shadow: none;
+
+font-family: "Big Noodle Too", impact, sans-serif;
+background-color:  white;
+}
+
+.hour{
+	
+}
+.yayaya{
+	max-height: 1000px;
 }
