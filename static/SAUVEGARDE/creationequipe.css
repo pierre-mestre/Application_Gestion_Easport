@@ -102,14 +102,15 @@ body{
 	-o-filter: blur(10px);
 	-ms-filter: blur(10px);
 	filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='10');
+
 	width: 100%;
 	position: relative;
+	margin-top: 0px;
 	padding-top: 0px;
 	grid-template-columns: 25% 48% 25%;
 	display: inline-grid;
 	justify-content:  center;
 	align-items: start;
-	margin: 0 auto;
 }
 #bandeau{
 
@@ -225,36 +226,6 @@ body{
 	-webkit-text-stroke: 1.5px #000000;
 	text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
-.filtrer{
-	color: white;
-	text-align: center;
-	font-family: "Big Noodle Too", impact, sans-serif;
-	font-size: xx-large;
-	color: white;
-	margin-top: 0;
-	margin-bottom: 0;
-	-webkit-text-stroke: 1.5px #000000;
-		text-decoration: underline;
-
-	text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-}
-.pe1 {
-    text-decoration: underline;
-    margin-top: 10px;
-    color: white;
-}
-.filtrea{
-	color: white;
-
-	text-align: center;
-	font-family: "Big Noodle Too", impact, sans-serif;
-	font-size: x-large;
-	color: white;
-	margin-top: 0;
-	margin-bottom: 0;
-	-webkit-text-stroke: 1.5px #000000;
-	text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-}
 .filtre8{
 	color: white;
 	text-align: center;
@@ -338,26 +309,6 @@ body{
 
 	
 }
-.cinqa{
-	grid-column: 3 / 4;
-	grid-row: 1; 
-	padding: 10px;
-	overflow: auto;
-	text-align: center;
-	height: fit-content;
-
-
-	
-}
-.septa{
-	grid-column: 2 / 3;
-	grid-row: 1; 
-	overflow: auto;
-	text-align: center;
-	height: auto+2px;
-
-	
-}
 .deux{
 	grid-column: 1 / 2;
 	grid-row: 2;
@@ -378,7 +329,6 @@ body{
 	overflow: auto;
 	height: fit-content;
 	align-items: center;
-	justify-items:center; 
 	width:97%;
 
 }
@@ -414,49 +364,6 @@ body{
 	font-family: bold;
 	margin: 10px;
 	text-align: center;
-}
-.noira{
-	background-color: black;
-	position: relative;
-	z-index: 11;
-	border: solid;
-	border-radius: 10px;
-	background-color: #323335;
-	border-color: black;
-	color: white;
-	font-family: bold;
-	margin: 10px;
-	width: 97%;
-	text-align: center;
-}
-.noirr{
-	position: relative;
-	z-index: 11;
-	border: solid;
-	border-radius: 10px;
-	background-color: #323335;
-	border-color: black;
-	color: white;
-	margin: 0 auto;
-	font-family: bold;
-	width: 90%;
-}
-.noirrr{
-	background-color: black;
-	position: relative;
-	z-index: 11;
-	border: solid;
-	border-radius: 10px;
-	background-color: #323335;
-	border-color: black;
-	color: white;
-	font-family: bold;
-	margin: 10px;
-	text-align: center;
-	justify-items: center;
-	height: 50px;
-	width: 97%;
-	line-height: 50px;
 }
 .unun{
 
@@ -578,15 +485,18 @@ body{
 }
 .uni{
 	grid-column: 1 / 2;
-	grid-row: 1;
+	grid-row: 1; 
 	overflow: auto;
-	max-height: 1000px;
+	text-align: center;
+
+
+	
 }
 .deuxi{
-	grid-column: 2 / 3;
-	grid-row: 1;
+	grid-column: 1 / 2;
+	grid-row: 2;
 	overflow: auto;
-	max-height: 1000px;
+
 }
 .troisi{
 	grid-column: 2 / 3;
@@ -621,7 +531,6 @@ body{
 	align-self: center;
 	align-items: center;
 	vertical-align: all;
-
 }
 .left{
 	text-align: left;
@@ -656,7 +565,7 @@ body{
 
 }
 /* Aspect des checkboxes */
-/* :before sert ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â  crÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©er la case ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â  cocher */
+/* :before sert ÃƒÆ’Ã‚Â  crÃƒÆ’Ã‚Â©er la case ÃƒÆ’Ã‚Â  cocher */
 .check{
 	margin-right: 10px;
 }
@@ -692,7 +601,7 @@ body{
 	display: block;
 	display: inline-grid;
 	justify-items: center;
-	margin: 0 auto;
+
 }
 .jj{
 	display: inline-grid;
@@ -850,29 +759,12 @@ body{
 .aa{
 	display: inline-grid;
 	justify-items: center;
-	grid-auto-rows: auto;
-
-	width: 99%;
-}
-.aaaa{
-	display: inline-grid;
-	justify-items: start;
-	width: 50%;
+	width: 97%;
 }
 .aka{
 	display: inline-grid;
 	justify-items: center;
 	
-}
-.rgrg{
-
-max-height: 1000px;
-
-overflow: auto;
-}
-.rhrh{
-	
-/* margin: 10px; */
 }
 .aaa{
 	display: inline-grid;
@@ -920,30 +812,12 @@ overflow: auto;
 	grid-column: 2 / 3;
 	background: linear-gradient(to right, #c33b3b, #ffb2b2, #8a1e1e);
 	border-color: #9a0b0b;
-		border: 3px solid;
-	border-color: red;
-	border-radius: 10px;
-	margin:10px;
-	padding: 5px;
 }
 .bleu{
 	grid-column: 1 / 2;
 	background: linear-gradient(to right, #2381c3, #64c1d6, #2381c3);
 	border-color: #0e3f7d;
-	border: 3px solid;
-	border-color: blue;
-	border-radius: 10px;
-	margin:10px;
-	padding: 5px;
 
-}
-.violeta{
-	
-background: linear-gradient(to right, #545353, #545353, #545353);
-	
-border-color: #545353;
-	
-height: 2px;
 }
 .bleua{
 	
@@ -1030,79 +904,12 @@ hr.rouge{height: 2px;border-color: #9a0b0b;background: #9a0b0b;}
 	grid-column: 5 / 6;
 	justify-items: center;
 }
-.inputs5 {
-text-align: center;
-}
-.fun{
-	grid-column: 2 / 3;
-	justify-items: center;
-	height: 30px;
-	margin: 10px;
-	line-height: 30px;
-}
-.filtra{
-	color: white;
-	text-align: center;
-	font-family: "Big Noodle Too", impact, sans-serif;
-	font-size: xx-large;
-	color: white;
-	margin-top: 0;
-	margin-bottom: 0;
-	-webkit-text-stroke: 1.5px #000000;
-	text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-}
-.gragra{
-	background: linear-gradient( to right, #403939, #a7abad, #403939);
-	border: 2px solid;
-	width: 70%;
-	border-color: black;
-	margin: 5px auto;
-}
-.gragra:hover{
-	background: linear-gradient( to right, #c15757, #f9d0d0, #c15757);
-}
-.wxa{
-		font-family: "Big Noodle Too", impact;
-		font-size: xx-large;
-		border: solid;
-		border-color: #020202;
-		color: white;
-		text-decoration: none;
-		text-decoration-color:white;
-		height: 50px;
-		line-height: 50px;
-		/*margin: 10px 10px 10px 10px;*/
-		text-align: center;
-		align-items: center;
-		justify-content: center;
-		justify-items:center;
-		color: white;
-}
-.inputs5 input {
-	font-family: "Big Noodle Too", impact;
-	font-size: 20px;
-	border: solid;
-	border-color: #020202;
-	line-height: 50px;
-	margin: 10px 10px 10px 10px;
-	text-align: center;
-	height: 50px;
-	width: 70%;
-	align-items: center;
-	justify-content: center;
-	justify-items:center;
-}
+
 .w6{
 	grid-column: 6 / 7;
 	justify-items: center;
 }
-.econa{
-	margin: 5px;
-	border:2px solid;
-	border-radius: 10px;
-	width: 30%;
-	height: auto;
-}
+
 
 .equipa{
 	width: 90%;
@@ -1188,135 +995,4 @@ background-color:  white;
 }
 .yayaya{
 	max-height: 1000px;
-}
-.haha{
-	margin: 5px;
-		grid-column: 1 / 2;
-
-}
-.iki{
-	margin: 0 auto;
-	text-align:center;
-}
-.hoho{
-	margin: 5px;
-		grid-column: 2 / 3;
-
-}
-.inline{
-	grid-template-columns: auto;
-	display: inline-grid;
-	margin:0 auto;
-	text-align: center;
-	justify-items: center;
-	float: center;
-}
-.inlinea{
-	
-	display: inline-grid;
-	text-align: center;
-	justify-items: center;
-	float: center;
-	margin-bottom: 10px;
-}
-.tun{
-	grid-column: 1 / 2;
-	grid-row: 1; 
-}
-.tdeux{
-	
-	grid-column: 2 / 3;
-	
-}
-.e1{
-	grid-column: 1 / 2;
-	grid-row: 1; 
-}
-.e2{
-	grid-column: 2 / 3;
-	grid-row: 1; 
-}
-.e3{
-	grid-column: 3 / 4;
-	grid-row: 1; 
-}
-.e4{
-	grid-column: 4 / 5;
-	grid-row: 1; 
-}
-.e5{
-	grid-column: 5 / 6;
-	grid-row: 1; 
-}
-.e6{
-	grid-column: 6 / 7;
-	grid-row: 1; 
-}
-.e11{
-	grid-column: 1 / 2;
-	grid-row: 2; 
-}
-.e22{
-	grid-column: 2 / 3;
-	grid-row: 2;
-}
-.e33{
-	grid-column: 3 / 4;
-	grid-row: 2;
-}
-.e44{
-	grid-column: 4 / 5;
-	grid-row: 2;
-}
-.e55{
-	grid-column: 5 / 6;
-	grid-row: 2;
-}
-.e66{
-	grid-column: 6 / 7;
-	grid-row: 2;
-}
-
-.e111{
-	grid-column: 1 / 2;
-	grid-row: -2; 
-}
-.e222{
-	grid-column: 2 / 3;
-	grid-row: -2;
-}
-.e333{
-	grid-column: 3 / 4;
-	grid-row: -2;
-}
-.e444{
-	grid-column: 4 / 5;
-	grid-row: -2;
-}
-.e555{
-	grid-column: 5 / 6;
-	grid-row: -2;
-}
-.e666{
-	grid-column: 6 / 7;
-	grid-row: -2;
-}
-.violet{
-	border: 3px solid;
-	border-color: #252121;
-	background: linear-gradient(to right, #545353, #989898, #545353);
-	margin: 30px;
-	border-radius: 10px;
-}
-.mostly-customized-scrollbar::-webkit-scrollbar {
-  width: 5px;
-  height: 8px;
-  background-color: #aaa; /* or add it to the track */
-}
-/* Add a thumb */
-.mostly-customized-scrollbar::-webkit-scrollbar-thumb {
-    background: #000; 
-}
-.underline{
-
 }
