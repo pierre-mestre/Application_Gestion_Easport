@@ -1,0 +1,742 @@
+body{
+	color:black;
+	margin: 0;
+	padding: 0;
+	background: url(IMAGE/404.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.mort{
+
+text-align: center;
+
+width: 90%;
+
+height: 80px;
+
+line-height: 80px;
+
+/* z-index: 99999999999999999; */
+
+margin: 250px auto;
+
+font-family: "Big Noodle Too", impact, sans-serif;
+
+font-size: -webkit-xxx-large;
+
+color: white;
+
+-webkit-text-stroke: 1.5px #000000;
+
+text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+#parent {
+   position: relative;
+   float: right;
+   margin: 0 250px 0 0;
+}
+img.superpose {
+   position: absolute;
+  
+}
+
+#img_1 {
+   z-index: 10;
+   border-radius: 50%;
+   color: black;
+   border:solid;
+   background-color: black;
+   border-color: black;
+   width: 180px;
+   height: 165px;
+}
+#img_2 {
+   z-index: 11;
+   width: 370px;
+   height: 370px;
+   margin: -100px 0px 0px -95px;
+}
+#img_3 {
+   z-index: 12;
+   height: auto;
+   width: 100px;
+   margin: 114px 0 0 42px;
+}
+#img_4{
+   z-index: 13;
+   margin: 91px 0 0 -66px;
+   width: 315px;
+   height: auto;
+}
+#header{
+    background: linear-gradient(to right, #000000, #596165, #000000);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border: solid;
+    border-color: #ffffff;
+}
+#button{
+	float: right;
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	font-weight: normal;
+	border-right: solid;
+	border-left: solid;
+	border-color:  white;
+	font-size: 25px;
+	text-decoration-color: white;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-family: "Big Noodle Too", impact, sans-serif;
+}
+
+#button2{
+	float: right;
+	width: 27%;
+	height: 50px;
+	font-weight: normal;
+	font-family: "Big Noodle Too", impact, sans-serif;
+	font-size: 18px;
+	/* justify-content: space-between; */
+	/* margin: 10px 10px auto; */
+	border: solid;
+	border-color: #020202;
+	color: white;
+}
+#titre{
+	position: absolute;
+	display: block;
+	left: 50%;
+	margin: 25px auto;
+	transform: translateX(-50%);
+}
+#trait_dessus { display:block;
+	color:#ffff; width : 100%; }
+
+#blurred{
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='10');
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 350px;
+}
+.containt{
+	width: fit-contain
+}
+#bandeau{
+
+background-color: #323335;
+
+border-radius: 10px;
+
+border : solid;
+
+border-color: #000000;
+
+text-align: center;
+
+width: 90%;
+
+height: 80px;
+
+line-height: 80px;
+
+z-index: 99999999999999999;
+
+margin: 0 auto;
+
+font-family: "Big Noodle Too", impact, sans-serif;
+
+font-size: -webkit-xxx-large;
+
+color: white;
+
+-webkit-text-stroke: 1.5px #000000;
+
+text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+#bandeauu{
+
+background-color: #323335;
+
+border-radius: 10px;
+
+border : solid;
+
+border-color: #000000;
+
+text-align: center;
+
+width: 90%;
+
+height: 80px;
+
+line-height: 80px;
+
+z-index: 99999999999999999;
+
+margin: 0 auto;
+
+font-family: "Big Noodle Too", impact, sans-serif;
+
+font-size: -webkit-xxx-large;
+
+color: white;
+
+-webkit-text-stroke: 1.5px #000000;
+
+text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+#icone{
+	border-radius: 50%;
+	color: black;
+	border:solid;
+	background-color: black;
+	border-color: black;
+	width: 200px;
+	height: 200px;
+	float: right;
+	margin-right: 3%;
+	margin-bottom: 3%;
+}
+#container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 20px auto;
+}
+#mp{
+
+}
+.inputs {
+	float: right;
+	margin-right: 20px;
+}
+.inputs2 {
+	font-family: "Big Noodle Too", impact;
+	font-size: 20px;
+	margin: 0 auto;
+	border-color: #020202;
+	width: 50%;
+	margin: 10px auto 10px auto;
+	height: 50px;
+}
+.inputs2 input {
+	font-family: "Big Noodle Too", impact;
+	font-size: 20px;
+	border: solid;
+	border-color: #020202;
+	width: 71%;
+	/*margin: 10px 10px 10px 10px;*/
+	height: 50px;
+}
+.inscription {
+    background: linear-gradient(#ff9500, #ff5500);
+}
+.inscription:hover {
+    background: linear-gradient(#ccc9c9, #777677);
+}
+.connexion {
+    background: linear-gradient(#282c2e, #565353);
+}
+.connexion:hover {
+    background: linear-gradient(#ccc9c9, #777677);
+}
+.inputs input {
+	font-family: "Big Noodle Too", impact;
+	font-size: 20px;
+	border: solid;
+	border-color: white;
+	vertical-align: middle;
+}
+#entete{
+ text-align: center;
+ border: solid;
+ border-radius: 10px;
+ background-color: grey;
+ color: white;
+ border-color: black;
+ height: 50px;
+ width: 100%;
+ line-height: 50px;
+ margin-top: -150px;
+}
+.backvideo{
+	width: 100%;
+	position: absolute;
+	left: 50%;
+	top: 0;
+	transform: translateX(-50%);
+	z-index: -1;
+	
+}
+.filtre{
+	color: white;
+	text-align: center;
+	font-family: "Big Noodle Too", impact, sans-serif;
+	font-size: -webkit-xxx-large;
+	color: white;
+	margin-top: 0;
+	margin-bottom: 0;
+	-webkit-text-stroke: 1.5px #000000;
+	text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.block{
+	margin: 10px 10px 10px;
+}
+
+.content {
+	background: red;
+	height: auto;
+}
+
+.w-25 {
+	width: 29%;
+	background-color: #323335;
+	border-radius: 10px;
+	border : solid;
+	border-color: #020202;
+}
+
+.w-75 {
+	width: 69%;
+	background-color: #323335;
+	border-radius: 10px;
+	border : solid;
+	border-color: #020202;
+}body{
+	color:black;
+	margin: 0;
+	padding: 0;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+#header{
+    background: linear-gradient(to right, #000000, #596165, #000000);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border: solid;
+    border-color: #ffffff;
+}
+#button{
+	float: right;
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	font-weight: normal;
+	border-right: solid;
+	border-left: solid;
+	border-color:  white;
+	font-size: 25px;
+	text-decoration-color: white;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-family: "Big Noodle Too", impact, sans-serif;
+}
+
+#button2{
+	/* float: right; */
+	width: 28%;
+	height: 50px;
+	font-weight: normal;
+	font-family: "Big Noodle Too", impact, sans-serif;
+	font-size: 18px;
+	/* justify-content: space-between; */
+	/* margin: auto auto auto 10px; */
+	border: solid;
+	border-color: #020202;
+	color: white;
+}
+#titre{
+	position: absolute;
+	display: block;
+	left: 50%;
+	margin: 25px auto;
+	transform: translateX(-50%);
+}
+
+#blurred{
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='10');
+    width: 100%;
+    position: relative;
+    padding-top: 350px;
+    margin: 0 auto;
+    text-align: center;
+}
+.containt{
+	width: fit-contain
+}
+#bandeau{
+
+background-color: #323335;
+
+border-radius: 10px;
+
+border : solid;
+
+border-color: #000000;
+
+text-align: center;
+
+width: auto;
+
+height: 80px;
+
+padding: auto 10px auto 10px;
+
+line-height: 80px;
+
+z-index: 99999999999999999;
+
+margin: 0 auto;
+
+font-family: "Big Noodle Too", impact, sans-serif;
+
+font-size: -webkit-xxx-large;
+
+color: white;
+
+-webkit-text-stroke: 1.5px #000000;
+
+text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+#bandeauu{
+
+background-color: #323335;
+
+border-radius: 10px;
+
+border : solid;
+
+border-color: #000000;
+
+text-align: center;
+
+width: 90%;
+
+height: 80px;
+
+line-height: 80px;
+
+z-index: 99999999999999999;
+
+margin: 0 auto;
+
+font-family: "Big Noodle Too", impact, sans-serif;
+
+font-size: -webkit-xxx-large;
+
+color: white;
+
+-webkit-text-stroke: 1.5px #000000;
+
+text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+#icone{
+	border-radius: 50%;
+	color: black;
+	border:solid;
+	background-color: black;
+	border-color: black;
+	width: 200px;
+	height: 200px;
+	float: right;
+	margin-right: 3%;
+	margin-bottom: 3%;
+}
+#container {
+    display: flex;
+    width: 100%;
+}
+#mp{
+
+}
+.inputs {
+	float: right;
+	margin-right: 20px;
+}
+
+.inputs2 input {
+	font-family: "Big Noodle Too", impact;
+	font-size: 20px;
+	border: solid;
+	border-color: #020202;
+	width: 71%;
+	/*margin: 10px 10px 10px 10px;*/
+	height: 50px;
+	/* margin-right: 10px; */
+}
+.inscription {
+    background: linear-gradient(#ff9500, #ff5500);
+}
+.inscription:hover {
+    background: linear-gradient(#ccc9c9, #777677);
+}
+.connexion {
+    background: linear-gradient(#282c2e, #565353);
+}
+.connexion:hover {
+    background: linear-gradient(#ccc9c9, #777677);
+}
+.inputs input {
+	font-family: "Big Noodle Too", impact;
+	font-size: 20px;
+	border: solid;
+	border-color: white;
+	vertical-align: middle;
+}
+#entete{
+ text-align: center;
+ border: solid;
+ border-radius: 10px;
+ background-color: grey;
+ color: white;
+ border-color: black;
+ height: 50px;
+ width: 100%;
+ line-height: 50px;
+ margin-top: -150px;
+}
+.backvideo{
+	width: 100%;
+	position: absolute;
+	left: 50%;
+	top: 0;
+	transform: translateX(-50%);
+	z-index: -1;
+	
+}
+#kiki{
+	width: 85%;
+	margin: 0px;
+	border: 3px solid;
+	background-color: #323335;
+	padding: 4%;
+	border-radius: 10px;
+	max-height: 650px;
+	overflow: auto;
+}
+.or{
+	color: #dab55d;
+	grid-column: 3 / 4;
+	justify-items: center;
+	text-align: center;
+	font-size: 20px;
+	margin: 10px auto 10px auto;
+}
+.orr{
+	color: #bdb3b3;
+	grid-column: 3 / 4;
+	justify-items: center;
+	text-align: center;
+	margin: 10px auto 10px auto;
+	font-size: 20px;
+}
+.orrr{
+	color: #b15f45;
+	grid-column: 3 / 4;
+	justify-items: center;
+	text-align: center;
+	margin: 10px auto 10px auto;
+	font-size: 20px;
+
+}
+.argent{
+	color: #bdb3b3;
+	grid-column: 4 / 5;
+	text-align: center;
+	margin: 10px;
+}
+.bronze{
+	color: #b15f45;
+	text-align: center;
+	grid-column: 5 / 6;
+	margin: 10px 15px 10px 10px;
+}
+.rondb{width: 30px;height: 30px;background-size: 100%;display: block;border: 2px solid;border-radius: 147px;background: url(IMAGE/fond.jpg) no-repeat center fixed;/* margin-left: auto; *//* margin-right: auto; *//* margin-top: auto; *//* margin-bottom: auto; */border-color: #1d1163c7;}
+.rondr{width: 30px;height: 30px;background-size: 100%;display: block;border: 2px solid;border-radius: 147px;background: url(IMAGE/fond.jpg) no-repeat center fixed;margin-left: 5px;margin-right: 5px;margin-top: auto;margin-bottom: auto;grid-column: 1/2;border-color: #9a0b0b;}
+
+.bleu{
+	grid-column: 1/2;
+	border: 3px solid;
+	padding-top: 3px;
+	border-radius: 10px;
+	margin: 5px;
+	border-color: blue;
+	background: linear-gradient(to right, #2381c3, #64c1d6, #2381c3);
+}
+.rouge{
+	grid-column: 2/3;
+	padding-top: 3px;
+	border: 3px solid;
+	border-radius: 10px;
+	margin: 5px;
+	border-color: #791919;
+	background: linear-gradient(to right, #c33b3b, #ffb2b2, #8a1e1e);
+}
+.bleur{
+	grid-column: 1/2;
+	border: 3px solid;
+	border-radius: 10px;
+	margin: 5px;
+	border-color: blue;
+	background: linear-gradient(to right, #2381c3, #64c1d6, #2381c3);
+}
+.rouger{
+	grid-column: 2/3;
+	border: 3px solid;
+	border-radius: 10px;
+	margin: 5px;
+	border-color: #791919;
+	background: linear-gradient(to right, #c33b3b, #ffb2b2, #8a1e1e);
+}
+.grid{
+	display: inline-grid;
+	grid-template-columns: 330px 330px;
+	float: left;
+	margin: 0 auto auto 28px;
+}
+.gridr{
+	display: inline-grid;
+	grid-template-columns: 100px 150px;
+	float: left;
+	justify-items: center;
+	margin: 0 auto 10px auto;
+}
+.level{
+	border: 5px solid;
+	border-color: #5a5757;
+	width: fit-content;
+	font-family: "Big Noodle Too", impact, sans-serif;
+	-webkit-text-stroke: 1.5px #000000;
+	text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	margin: 0 auto 15px auto;
+	font-size: xx-large;
+	color: white;
+	border-radius: 10px;
+	padding: 10px;
+	background: linear-gradient(to right, #8a8c8e, #bdc7ca, #8a8c8e);
+}
+.gridrr{
+	display: inline-grid;
+	grid-template-columns: 100px 150px;
+	float: left;
+	justify-items: center;
+	margin: 80px auto 80px auto;
+}
+.kiki::-webkit-scrollbar{
+  width: 5px;
+  height: 8px;
+  background-color: #aaa; /* or add it to the track */
+}
+/* Add a thumb */
+.kiki::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: #aaa; /* or add it to the track */
+}
+.racrac{
+
+}
+
+.filtre{
+	color: white;
+	text-align: center;
+	font-family: "Big Noodle Too", impact, sans-serif;
+	font-size: -webkit-xxx-large;
+	color: white;
+	margin-top: 0;
+	margin-bottom: 0;
+	-webkit-text-stroke: 1.5px #000000;
+	text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.dradra{
+		color: white;
+		text-align: center;
+		font-family: "Big Noodle Too", impact, sans-serif;
+		font-size: xx-large;
+		color: white;
+		margin: 5px;
+		/* margin-top: 0; */
+		margin-bottom: 10px;
+		-webkit-text-stroke: 1.5px #000000;
+		text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.z{
+	align-items: center;
+	/* margin: auto; */
+}
+.dradrar{
+		color: white;
+		text-align: center;
+		font-family: "Big Noodle Too", impact, sans-serif;
+		font-size: x-large;
+		color: white;
+		/* margin-top: 0; */
+		/* margin: 5px; */
+		/* margin-bottom: 10px; */
+		-webkit-text-stroke: 1.5px #000000;
+		text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.gaga{
+	margin: 10px;
+	font-size: 20px;
+
+}
+.aa{
+	display: inline-grid;
+	margin: 0 auto;
+	text-align: center;
+	width: 80%;
+}
+
+.deux{
+	grid-column: 2/3;
+	justify-items: start;
+}
+.un{
+	grid-column: 1/2;
+
+}
+.block{margin: 10px auto;}
+
+.content {
+	background: red;
+	height: auto;
+}
+
+.w-25 {
+	width: 99%;
+	background-color: #323335;
+	border-radius: 10px;
+	border : solid;
+	border-color: #020202;
+	margin: auto;
+	text-align: center;
+}
+
+.w-75 {
+	width: 100%;
+	background-color: #323335;
+	border-radius: 10px;
+	border : solid;
+	height: 538px;
+	border-color: #020202;
+}
