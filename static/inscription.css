@@ -9,7 +9,18 @@ body{
 
 
 }
-
+.deconnexion {
+    background: linear-gradient(#ff0e0e, #5f0909);
+}
+.deconnexion:hover {
+    background: linear-gradient(#ccc9c9, #403d3b)
+}
+.monprofil {
+    background: linear-gradient(#9cd9e6, #2381c3);
+}
+.monprofil:hover {
+    background: linear-gradient(#ccc9c9, #403d3b)
+}
 #header{
     background: linear-gradient(to right, #000000, #596165, #000000);
     margin: 0;

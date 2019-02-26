@@ -6,6 +6,18 @@ body{
 	-webkit-background-size: cover;
 	background-size: cover;
 }
+.deconnexion {
+    background: linear-gradient(#ff0e0e, #5f0909);
+}
+.deconnexion:hover {
+    background: linear-gradient(#ccc9c9, #403d3b)
+}
+.monprofil {
+    background: linear-gradient(#9cd9e6, #2381c3);
+}
+.monprofil:hover {
+    background: linear-gradient(#ccc9c9, #403d3b)
+}
 .gragra{
 	background: linear-gradient( to right, #403939, #a7abad, #403939);
 	border: 2px solid;
