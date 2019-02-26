@@ -6,6 +6,7 @@ import uuid from "uuid/v4";
 import dao from "./db_routes";
 
 const app = express();
+const ROOT = process.env.INIT_CWD;
 
 app.use("/static/", express.static(__dirname + "/../static/"));
 app.use("/pages/", express.static(__dirname + "/../pages/"));
@@ -23,28 +24,43 @@ app.use(session({
 // Json parsing
 app.use(bodyParser.json());
 
-var getIndex = function(content){
+var getIndex = function(content, connected){
 	var index = `<!DOCTYPE html>
 				 <html lang="fr">`;
-	index += fs.readFileSync(`${process.env.INIT_CWD}/template/head.html`);
+	index += fs.readFileSync(`${ROOT}/template/head.html`);
 	index += `<body>`;
-	index += fs.readFileSync(`${process.env.INIT_CWD}/template/header.html`);
+
+	if(connected === undefined || connected == false)
+		index += fs.readFileSync(`${ROOT}/template/header.html`);
+	else {
+		index += fs.readFileSync(`${ROOT}/template/header_co.html`);
+		index += connected;
+		index += '</label>';
+	}
+	index += "</div></div></header>";
+
 	index += `<main id="content" role="main" class="container">`;
 
 	if(content !== undefined && typeof content == 'string'){
-		if(fs.existsSync(`${process.env.INIT_CWD}/pages/${content}/${content}.html`)){
-			index += fs.readFileSync(`${process.env.INIT_CWD}/pages/${content}/${content}.html`).toString();
-			if(fs.existsSync(`${process.env.INIT_CWD}/pages/${content}/js/${content}.js`)){
+		const PAGES = `${ROOT}/pages/${content}`;
+		if(fs.existsSync(`${PAGES}/${content}.html`)){
+			index += fs.readFileSync(`${PAGES}/${content}.html`).toString();
+			if(fs.existsSync(`${PAGES}/js/${content}.js`)){
 				index += '<script>';
-				index += fs.readFileSync(`${process.env.INIT_CWD}/pages/${content}/js/${content}.js`).toString();
+				index += fs.readFileSync(`${PAGES}/js/${content}.js`).toString();
 				index += '</script>';
+			}
+			if(fs.existsSync(`${PAGES}/css/${content}.css`)){
+				index += '<style rel="stylesheet">';
+				index += fs.readFileSync(`${PAGES}/css/${content}.css`).toString();
+				index += '</style>';
 			}
 		}
 		else index += content;
 	}
 
 	index += `</main>`;
-	index += fs.readFileSync(`${process.env.INIT_CWD}/template/footer.html`);
+	index += fs.readFileSync(`${ROOT}/template/footer.html`);
 	index += `</body>
 			  </html>`;
 
@@ -52,11 +68,11 @@ var getIndex = function(content){
 }
 
 var setPages = function(itemsPath){
-	var items = fs.readdirSync(`${process.env.INIT_CWD}/${itemsPath}/`);
+	var items = fs.readdirSync(`${ROOT}/${itemsPath}/`);
 
 	var listPages = {};
     items.forEach(function(element, index){
-    	var path = `${process.env.INIT_CWD}/${itemsPath}/${element}`;
+    	var path = `${ROOT}/${itemsPath}/${element}`;
     	if(fs.lstatSync(path).isDirectory()){
     		if(element != 'js' && element != 'css') {
     			setPages(`${itemsPath}/${element}`);
@@ -84,7 +100,7 @@ var setPages = function(itemsPath){
     			});
     			if(listPages[element][element] === 'undefined'){
     				app.get(url, function(req, res) {
-    					const content = getIndex(element);
+    					const content = getIndex(element, req.session.pseudo);
 						const token = req.headers.authorization;
 						const origin = req.headers.origin;
 						res.set("Content-Type", "text/html");
@@ -93,7 +109,7 @@ var setPages = function(itemsPath){
     			}
     		} else {
     			app.get(url, function(req, res) {
-					const content = getIndex(element);
+					const content = getIndex(element, req.session.pseudo);
 					const token = req.headers.authorization;
 					const origin = req.headers.origin;
 					res.set("Content-Type", "text/html");
@@ -107,7 +123,15 @@ var setPages = function(itemsPath){
 setPages('pages');
 
 app.get("/", function(req, res) {
-	const content = getIndex();
+	const content = getIndex('index', req.session.pseudo);
+	const token = req.headers.authorization;
+	const origin = req.headers.origin;
+	res.set("Content-Type", "text/html");
+	res.send(content.toString());
+});
+
+app.get("*", function(req, res) {
+	const content = getIndex('404', req.session.pseudo);
 	const token = req.headers.authorization;
 	const origin = req.headers.origin;
 	res.set("Content-Type", "text/html");

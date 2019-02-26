@@ -1,8 +1,6 @@
 $(document).ready(function() {
     $('#signup').on('click', '#signup_submit', function () {
         var data = {
-            fname: $('#fname').val(),
-            lname: $('#lname').val(),
             mail: $('#mail').val(),
             password: $('#password').val(),
             pseudo: $('#pseudo').val()

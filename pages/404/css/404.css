@@ -2,9 +2,33 @@ body{
 	color:black;
 	margin: 0;
 	padding: 0;
-	background: url(IMAGE/fond.jpg) no-repeat center fixed;
+	background: url(IMAGE/404.jpg);
 	-webkit-background-size: cover;
 	background-size: cover;
+}
+.mort{
+
+text-align: center;
+
+width: 90%;
+
+height: 80px;
+
+line-height: 80px;
+
+/* z-index: 99999999999999999; */
+
+margin: 250px auto;
+
+font-family: "Big Noodle Too", impact, sans-serif;
+
+font-size: -webkit-xxx-large;
+
+color: white;
+
+-webkit-text-stroke: 1.5px #000000;
+
+text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 #parent {
    position: relative;
@@ -293,7 +317,6 @@ text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
 	color:black;
 	margin: 0;
 	padding: 0;
-	background: url(IMAGE/fond.jpg) no-repeat center fixed;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
