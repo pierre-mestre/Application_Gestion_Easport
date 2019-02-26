@@ -6,7 +6,43 @@ body{
 	-webkit-background-size: cover;
 	background-size: cover;
 }
-
+#parent {
+   position: relative;
+   float: right;
+   margin: 0 250px 0 0;
+}
+img.superpose {
+   position: absolute;
+  
+}
+#img_1 {
+   z-index: 10;
+   border-radius: 50%;
+   color: black;
+   border:solid;
+   background-color: black;
+   border-color: black;
+   width: 180px;
+   height: 165px;
+}
+#img_2 {
+   z-index: 11;
+   width: 370px;
+   height: 370px;
+   margin: -100px 0px 0px -95px;
+}
+#img_3 {
+   z-index: 13;
+   height: auto;
+   width: 100px;
+   margin: 170px 0 0 42px;
+}
+#img_4{
+   z-index: 12;
+   margin: 91px 0 0 -66px;
+   width: 315px;
+   height: auto;
+}
 #header{
     background: linear-gradient(to right, #000000, #596165, #000000);
     margin: 0;
