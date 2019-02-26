@@ -14,7 +14,7 @@ $(document).ready(function() {
             .then(response => response.json())
             .then(json => {
                 if(!json.connected) return;
-                window.location.replace(`${window.location.origin}/huehue`);
+                window.location.replace(`${window.location.origin}/index`);
             }); // parses response to JSON
     });
 

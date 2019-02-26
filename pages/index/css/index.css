@@ -717,3 +717,15 @@ text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
 	height: 538px;
 	border-color: #020202;
 }
+.deconnexion {
+    background: linear-gradient(#ff0e0e, #5f0909);
+}
+.deconnexion:hover {
+    background: linear-gradient(#ccc9c9, #403d3b)
+}
+.monprofil {
+    background: linear-gradient(#9cd9e6, #2381c3);
+}
+.monprofil:hover {
+    background: linear-gradient(#ccc9c9, #403d3b)
+}

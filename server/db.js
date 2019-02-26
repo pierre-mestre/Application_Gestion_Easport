@@ -3,10 +3,12 @@ const pool = new Pool({
 	connectionString: 'postgresql://postgres:root@localhost:5432/mycoach'
 });
 
+const schema = 'public';
+
 module.exports = {
 	get: async function(select, table, where, pvalues, callback) {
 		const pquery = {
-			text: `SELECT ${select} FROM ${table} WHERE ${where}`,
+			text: `SELECT ${select} FROM ${schema}.${table} WHERE ${where}`,
 			values: pvalues
 		};
 
@@ -22,7 +24,7 @@ module.exports = {
 	},
 
 	set: async function(table, where, pvalues, callback) {
-		let query_text = `INSERT INTO ${table} (`;
+		let query_text = `INSERT INTO ${schema}.${table} (`;
 		query_text += `${where[0]}`;
 		for(let i=1; i<where.length; i++) query_text += `, ${where[i]}`;
 		query_text += ') VALUES (';
