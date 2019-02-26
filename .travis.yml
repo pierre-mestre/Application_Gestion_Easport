@@ -1,10 +1,6 @@
 language: node_js
 node_js:
 - '9'
-script:
-- cd nodejs-minimal-boilerplate
-- yarn
-- yarn run test
 deploy:
   provider: heroku
   app: application-gestion-easport
