@@ -15,6 +15,7 @@ img.superpose {
    position: absolute;
   
 }
+
 #img_1 {
    z-index: 10;
    border-radius: 50%;
@@ -90,6 +91,8 @@ img.superpose {
 	margin: 25px auto;
 	transform: translateX(-50%);
 }
+#trait_dessus { display:block;
+	color:#ffff; width : 100%; }
 
 #blurred{
     -moz-filter: blur(10px);
@@ -507,18 +510,114 @@ text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
 	max-height: 650px;
 	overflow: auto;
 }
+.or{
+	color: #dab55d;
+	grid-column: 3 / 4;
+	justify-items: center;
+	text-align: center;
+	font-size: 20px;
+	margin: 10px auto 10px auto;
+}
+.orr{
+	color: #bdb3b3;
+	grid-column: 3 / 4;
+	justify-items: center;
+	text-align: center;
+	margin: 10px auto 10px auto;
+	font-size: 20px;
+}
+.orrr{
+	color: #b15f45;
+	grid-column: 3 / 4;
+	justify-items: center;
+	text-align: center;
+	margin: 10px auto 10px auto;
+	font-size: 20px;
+
+}
+.argent{
+	color: #bdb3b3;
+	grid-column: 4 / 5;
+	text-align: center;
+	margin: 10px;
+}
+.bronze{
+	color: #b15f45;
+	text-align: center;
+	grid-column: 5 / 6;
+	margin: 10px 15px 10px 10px;
+}
+.rondb{width: 30px;height: 30px;background-size: 100%;display: block;border: 2px solid;border-radius: 147px;background: url(IMAGE/fond.jpg) no-repeat center fixed;/* margin-left: auto; *//* margin-right: auto; *//* margin-top: auto; *//* margin-bottom: auto; */border-color: #1d1163c7;}
+.rondr{width: 30px;height: 30px;background-size: 100%;display: block;border: 2px solid;border-radius: 147px;background: url(IMAGE/fond.jpg) no-repeat center fixed;margin-left: 5px;margin-right: 5px;margin-top: auto;margin-bottom: auto;grid-column: 1/2;border-color: #9a0b0b;}
+
 .bleu{
 	grid-column: 1/2;
+	border: 3px solid;
+	padding-top: 3px;
+	border-radius: 10px;
+	margin: 5px;
+	border-color: blue;
+	background: linear-gradient(to right, #2381c3, #64c1d6, #2381c3);
 }
 .rouge{
 	grid-column: 2/3;
+	padding-top: 3px;
+	border: 3px solid;
+	border-radius: 10px;
+	margin: 5px;
+	border-color: #791919;
+	background: linear-gradient(to right, #c33b3b, #ffb2b2, #8a1e1e);
+}
+.bleur{
+	grid-column: 1/2;
+	border: 3px solid;
+	border-radius: 10px;
+	margin: 5px;
+	border-color: blue;
+	background: linear-gradient(to right, #2381c3, #64c1d6, #2381c3);
+}
+.rouger{
+	grid-column: 2/3;
+	border: 3px solid;
+	border-radius: 10px;
+	margin: 5px;
+	border-color: #791919;
+	background: linear-gradient(to right, #c33b3b, #ffb2b2, #8a1e1e);
 }
 .grid{
 	display: inline-grid;
-	grid-template-columns: 200% 200%;
+	grid-template-columns: 330px 330px;
 	float: left;
+	margin: 0 auto auto 28px;
 }
-
+.gridr{
+	display: inline-grid;
+	grid-template-columns: 100px 150px;
+	float: left;
+	justify-items: center;
+	margin: 0 auto 10px auto;
+}
+.level{
+	border: 5px solid;
+	border-color: #5a5757;
+	width: fit-content;
+	font-family: "Big Noodle Too", impact, sans-serif;
+	-webkit-text-stroke: 1.5px #000000;
+	text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	margin: 0 auto 15px auto;
+	font-size: xx-large;
+	color: white;
+	border-radius: 10px;
+	padding: 10px;
+	background: linear-gradient(to right, #8a8c8e, #bdc7ca, #8a8c8e);
+}
+.gridrr{
+	display: inline-grid;
+	grid-template-columns: 100px 150px;
+	float: left;
+	justify-items: center;
+	margin: 80px auto 80px auto;
+}
 .kiki::-webkit-scrollbar{
   width: 5px;
   height: 8px;
@@ -551,10 +650,32 @@ text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
 		font-family: "Big Noodle Too", impact, sans-serif;
 		font-size: xx-large;
 		color: white;
-		margin-top: 0;
+		margin: 5px;
+		/* margin-top: 0; */
 		margin-bottom: 10px;
 		-webkit-text-stroke: 1.5px #000000;
 		text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.z{
+	align-items: center;
+	/* margin: auto; */
+}
+.dradrar{
+		color: white;
+		text-align: center;
+		font-family: "Big Noodle Too", impact, sans-serif;
+		font-size: x-large;
+		color: white;
+		/* margin-top: 0; */
+		/* margin: 5px; */
+		/* margin-bottom: 10px; */
+		-webkit-text-stroke: 1.5px #000000;
+		text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.gaga{
+	margin: 10px;
+	font-size: 20px;
+
 }
 .aa{
 	display: inline-grid;
