@@ -62,10 +62,45 @@ body{
     filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='10');
     width: 100%;
     position: relative;
-    margin-top: 0px;
+    margin: 0 auto;
     padding-top: 350px;
 }
+.containt{
+	width: fit-contain
+}
 #bandeau{
+
+background-color: #323335;
+
+border-radius: 10px;
+
+border : solid;
+
+border-color: #000000;
+
+text-align: center;
+
+width: 90%;
+
+height: 80px;
+
+line-height: 80px;
+
+z-index: 99999999999999999;
+
+margin: 0 auto;
+
+font-family: "Big Noodle Too", impact, sans-serif;
+
+font-size: -webkit-xxx-large;
+
+color: white;
+
+-webkit-text-stroke: 1.5px #000000;
+
+text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+#bandeauu{
 
 background-color: #323335;
 
@@ -122,7 +157,15 @@ text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
 	float: right;
 	margin-right: 20px;
 }
-
+.inputs2 {
+	font-family: "Big Noodle Too", impact;
+	font-size: 20px;
+	margin: 0 auto;
+	border-color: #020202;
+	width: 50%;
+	margin: 10px auto 10px auto;
+	height: 50px;
+}
 .inputs2 input {
 	font-family: "Big Noodle Too", impact;
 	font-size: 20px;
@@ -206,5 +249,300 @@ text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
 	background-color: #323335;
 	border-radius: 10px;
 	border : solid;
+	border-color: #020202;
+}body{
+	color:black;
+	margin: 0;
+	padding: 0;
+	background: url(IMAGE/fond.jpg) no-repeat center fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+#header{
+    background: linear-gradient(to right, #000000, #596165, #000000);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border: solid;
+    border-color: #ffffff;
+}
+#button{
+	float: right;
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	font-weight: normal;
+	border-right: solid;
+	border-left: solid;
+	border-color:  white;
+	font-size: 25px;
+	text-decoration-color: white;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-family: "Big Noodle Too", impact, sans-serif;
+}
+
+#button2{
+	/* float: right; */
+	width: 28%;
+	height: 50px;
+	font-weight: normal;
+	font-family: "Big Noodle Too", impact, sans-serif;
+	font-size: 18px;
+	/* justify-content: space-between; */
+	/* margin: auto auto auto 10px; */
+	border: solid;
+	border-color: #020202;
+	color: white;
+}
+#titre{
+	position: absolute;
+	display: block;
+	left: 50%;
+	margin: 25px auto;
+	transform: translateX(-50%);
+}
+
+#blurred{
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='10');
+    width: 100%;
+    position: relative;
+    padding-top: 350px;
+    margin: 0 auto;
+    text-align: center;
+}
+.containt{
+	width: fit-contain
+}
+#bandeau{
+
+background-color: #323335;
+
+border-radius: 10px;
+
+border : solid;
+
+border-color: #000000;
+
+text-align: center;
+
+width: auto;
+
+height: 80px;
+
+padding: auto 10px auto 10px;
+
+line-height: 80px;
+
+z-index: 99999999999999999;
+
+margin: 0 auto;
+
+font-family: "Big Noodle Too", impact, sans-serif;
+
+font-size: -webkit-xxx-large;
+
+color: white;
+
+-webkit-text-stroke: 1.5px #000000;
+
+text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+#bandeauu{
+
+background-color: #323335;
+
+border-radius: 10px;
+
+border : solid;
+
+border-color: #000000;
+
+text-align: center;
+
+width: 90%;
+
+height: 80px;
+
+line-height: 80px;
+
+z-index: 99999999999999999;
+
+margin: 0 auto;
+
+font-family: "Big Noodle Too", impact, sans-serif;
+
+font-size: -webkit-xxx-large;
+
+color: white;
+
+-webkit-text-stroke: 1.5px #000000;
+
+text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+#icone{
+	border-radius: 50%;
+	color: black;
+	border:solid;
+	background-color: black;
+	border-color: black;
+	width: 200px;
+	height: 200px;
+	float: right;
+	margin-right: 3%;
+	margin-bottom: 3%;
+}
+#container {
+    display: flex;
+    width: 100%;
+}
+#mp{
+
+}
+.inputs {
+	float: right;
+	margin-right: 20px;
+}
+
+.inputs2 input {
+	font-family: "Big Noodle Too", impact;
+	font-size: 20px;
+	border: solid;
+	border-color: #020202;
+	width: 71%;
+	/*margin: 10px 10px 10px 10px;*/
+	height: 50px;
+	/* margin-right: 10px; */
+}
+.inscription {
+    background: linear-gradient(#ff9500, #ff5500);
+}
+.inscription:hover {
+    background: linear-gradient(#ccc9c9, #777677);
+}
+.connexion {
+    background: linear-gradient(#282c2e, #565353);
+}
+.connexion:hover {
+    background: linear-gradient(#ccc9c9, #777677);
+}
+.inputs input {
+	font-family: "Big Noodle Too", impact;
+	font-size: 20px;
+	border: solid;
+	border-color: white;
+	vertical-align: middle;
+}
+#entete{
+ text-align: center;
+ border: solid;
+ border-radius: 10px;
+ background-color: grey;
+ color: white;
+ border-color: black;
+ height: 50px;
+ width: 100%;
+ line-height: 50px;
+ margin-top: -150px;
+}
+.backvideo{
+	width: 100%;
+	position: absolute;
+	left: 50%;
+	top: 0;
+	transform: translateX(-50%);
+	z-index: -1;
+	
+}
+#kiki{
+	width: 85%;
+	margin: 0px;
+	border: 3px solid;
+	background-color: #323335;
+	padding: 4%;
+	border-radius: 10px;
+	max-height: 650px;
+	overflow: auto;
+}
+
+.kiki::-webkit-scrollbar{
+  width: 5px;
+  height: 8px;
+  background-color: #aaa; /* or add it to the track */
+}
+/* Add a thumb */
+.kiki::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: #aaa; /* or add it to the track */
+}
+
+.filtre{
+	color: white;
+	text-align: center;
+	font-family: "Big Noodle Too", impact, sans-serif;
+	font-size: -webkit-xxx-large;
+	color: white;
+	margin-top: 0;
+	margin-bottom: 0;
+	-webkit-text-stroke: 1.5px #000000;
+	text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.dradra{
+		color: white;
+		text-align: center;
+		font-family: "Big Noodle Too", impact, sans-serif;
+		font-size: xx-large;
+		color: white;
+		margin-top: 0;
+		margin-bottom: 10px;
+		-webkit-text-stroke: 1.5px #000000;
+		text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.aa{
+	display: inline-grid;
+	margin: 0 auto;
+	text-align: center;
+	width: 80%;
+}
+
+.deux{
+	grid-column: 2/3;
+	justify-items: start;
+}
+.un{
+	grid-column: 1/2;
+
+}
+.block{margin: 10px auto;}
+
+.content {
+	background: red;
+	height: auto;
+}
+
+.w-25 {
+	width: 99%;
+	background-color: #323335;
+	border-radius: 10px;
+	border : solid;
+	border-color: #020202;
+	margin: auto;
+	text-align: center;
+}
+
+.w-75 {
+	width: 100%;
+	background-color: #323335;
+	border-radius: 10px;
+	border : solid;
+	height: 538px;
 	border-color: #020202;
 }

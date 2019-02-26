@@ -37,7 +37,10 @@ body{
 	text-decoration: none;
 	font-family: "Big Noodle Too", impact, sans-serif;
 }
-
+.centre{
+ 	text-align: center;
+ 	margin: 0 auto;
+}
 #button2{
 	float: right;
 	width: 27%;
@@ -50,6 +53,11 @@ body{
 	border: solid;
 	border-color: #020202;
 	color: white;
+}
+#button4{
+	float: center;
+	text-align: center;
+	margin: 0 auto;
 }
 #button3{
 	text-align: center;
@@ -192,6 +200,7 @@ body{
 .connexion:hover {
 	background: linear-gradient(#ccc9c9, #777677);
 }
+
 .inputs input {
 	font-family: "Big Noodle Too", impact;
 	font-size: 20px;
