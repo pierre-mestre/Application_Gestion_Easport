@@ -1,0 +1,3 @@
+pg_dump --dbname=postgres --host=localhost --username=postgres --password --file=db.sql
+
+A faire dans pg11/bin de postgre en mode admin

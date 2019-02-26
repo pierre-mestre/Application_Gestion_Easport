@@ -1,0 +1,292 @@
+Microsoft Windows [version 10.0.17134.407]
+(c) 2018 Microsoft Corporation. Tous droits réservés.
+
+P:\>C:
+
+C:\>cd C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet>git clone https://github.com/pierre-mestre/Application_Gestion_Easport
+fatal: destination path 'Application_Gestion_Easport' already exists and is not an empty directory.
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet>git clone https://github.com/pierre-mestre/Application_Gestion_Easport
+Cloning into 'Application_Gestion_Easport'...
+remote: Enumerating objects: 67, done.
+remote: Counting objects: 100% (67/67), done.
+remote: Compressing objects: 100% (50/50), done.
+remote: Total 67 (delta 21), reused 35 (delta 6), pack-reused 0
+Unpacking objects: 100% (67/67), done.
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet>git rm Application_Gestion_Easport
+fatal: Not a git repository (or any of the parent directories): .git
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet>cd Application_Gestion_Easport
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>rm Application_Gestion_Easport
+'rm' n’est pas reconnu en tant que commande interne
+ou externe, un programme exécutable ou un fichier de commandes.
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git rm Application_Gestion_Easport
+rm 'Application_Gestion_Easport'
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git add .
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git commit -m "update project management 2"
+[master 9d001ee] update project management 2
+ 1 file changed, 1 deletion(-)
+ delete mode 160000 Application_Gestion_Easport
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git push
+Username for 'https://github.com': pierre.mestre@outlook.fr
+Password for 'https://pierre.mestre@outlook.fr@github.com':
+Counting objects: 2, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 250 bytes | 250.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/pierre-mestre/Application_Gestion_Easport
+   c5ee804..9d001ee  master -> master
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>cd ..
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet>git clone https://github.com/pierre-mestre/Application_Gestion_Easport
+fatal: destination path 'Application_Gestion_Easport' already exists and is not an empty directory.
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet>cd Application_Gestion_Easport
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git pull
+Already up to date.
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git branche BDD
+git: 'branche' is not a git command. See 'git --help'.
+
+The most similar command is
+        branch
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git branch BDD
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git checkout BDD
+Switched to branch 'BDD'
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git checkout origin/master
+Note: checking out 'origin/master'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by performing another checkout.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -b with the checkout command again. Example:
+
+  git checkout -b <new-branch-name>
+
+HEAD is now at 9d001ee update project management 2
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git branch BDD
+fatal: A branch named 'BDD' already exists.
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git commit -m "update project management 3"
+HEAD detached at origin/master
+nothing to commit, working tree clean
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git add .
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git commit -m "update project management 2"
+HEAD detached at origin/master
+nothing to commit, working tree clean
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git branch -d BDD
+Deleted branch BDD (was 9d001ee).
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git branch DEVELOPPEMENT
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git branch BDD
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git branch BACK
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git branch -d BDD
+Deleted branch BDD (was 9d001ee).
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git branch -d BACK
+Deleted branch BACK (was 9d001ee).
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git checkout DEVELOPPEMENT
+Switched to branch 'DEVELOPPEMENT'
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git branch
+* DEVELOPPEMENT
+  master
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git branch -d DEVELOPPEMENT
+Deleted branch DEVELOPPEMENT (was 9d001ee).
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git branch
+* master
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git branch DEVELOP
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git checkout master
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git branch -d DEVELOP
+Deleted branch DEVELOP (was 9d001ee).
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git branch develop
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git checkout develop
+Switched to branch 'develop'
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git push origin develop
+Username for 'https://github.com': pierre.mestre@outlook.fr
+Password for 'https://pierre.mestre@outlook.fr@github.com':
+Total 0 (delta 0), reused 0 (delta 0)
+remote:
+remote: Create a pull request for 'develop' on GitHub by visiting:
+remote:      https://github.com/pierre-mestre/Application_Gestion_Easport/pull/new/develop
+remote:
+To https://github.com/pierre-mestre/Application_Gestion_Easport
+ * [new branch]      develop -> develop
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git branch feature-login
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git push origin/devolp/feature-login
+fatal: 'origin/devolp/feature-login' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git push origin/devolp
+fatal: 'origin/devolp' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git push origin devolp feature-login
+error: src refspec devolp does not match any.
+error: failed to push some refs to 'https://github.com/pierre-mestre/Application_Gestion_Easport'
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git push origin devolp
+error: src refspec devolp does not match any.
+error: failed to push some refs to 'https://github.com/pierre-mestre/Application_Gestion_Easport'
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git push develop feature-login
+fatal: 'develop' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git push develop
+fatal: 'develop' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git branch
+* develop
+  feature-login
+  master
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git checkout feature-login
+Switched to branch 'feature-login'
+M       User Case.docx
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git push
+fatal: The current branch feature-login has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin feature-login
+
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git push origin feature-login
+Username for 'https://github.com': pierre.mestre@outlook.fr
+Password for 'https://pierre.mestre@outlook.fr@github.com':
+Total 0 (delta 0), reused 0 (delta 0)
+remote:
+remote: Create a pull request for 'feature-login' on GitHub by visiting:
+remote:      https://github.com/pierre-mestre/Application_Gestion_Easport/pull/new/feature-login
+remote:
+To https://github.com/pierre-mestre/Application_Gestion_Easport
+ * [new branch]      feature-login -> feature-login
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git add .
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git commit -m "update project management 3"
+[feature-login afbc633] update project management 3
+ 2 files changed, 230 insertions(+)
+ create mode 100644 0. GESTION DE PROJET/HISTORIQUE DES COMMANDES/30_11_2018 creations des branches.COMMIT_EDITMSG
+ rewrite User Case.docx (74%)
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> feature-login
+
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git push origin feature-login
+Username for 'https://github.com': pierre.mestre@outlook.fr
+Password for 'https://pierre.mestre@outlook.fr@github.com':
+Counting objects: 6, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 13.85 KiB | 6.93 MiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/pierre-mestre/Application_Gestion_Easport
+   9d001ee..afbc633  feature-login -> feature-login
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git ppush origin master
+git: 'ppush' is not a git command. See 'git --help'.
+
+The most similar command is
+        push
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git push origin master
+Username for 'https://github.com': pierre.mestre@outlook.fr
+Password for 'https://pierre.mestre@outlook.fr@github.com':
+Everything up-to-date
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git checkout master
+Unlink of file 'User Case.docx' failed. Should I try again? (y/n) y
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git pull
+Already up to date.
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git add .
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git commit -m "update project management 3"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>git push origin master
+Username for 'https://github.com': pierre.mestre@outlook.fr
+Password for 'https://pierre.mestre@outlook.fr@github.com':
+Everything up-to-date
+
+C:\Users\mp712271\OneDrive\Documents\IUT\S3A\production\Projet\Application_Gestion_Easport>
