@@ -48,7 +48,7 @@ img.superpose {
     background: linear-gradient(to right, #000000, #596165, #000000);
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 99.7%;
     height: 50px;
     line-height: 50px;
     border: solid;
@@ -201,9 +201,9 @@ text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
 	font-size: 20px;
 	margin: 0 auto;
 	border-color: #020202;
-	width: 50%;
+	width: 600px;
 	margin: 10px auto 10px auto;
-	height: 50px;
+	height: 42px;
 }
 .inputs2 input {
 	font-family: "Big Noodle Too", impact;
@@ -212,7 +212,7 @@ text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
 	border-color: #020202;
 	width: 71%;
 	/*margin: 10px 10px 10px 10px;*/
-	height: 50px;
+	height: 42px;
 }
 .inscription {
     background: linear-gradient(#ff9500, #ff5500);
@@ -302,7 +302,7 @@ text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
     background: linear-gradient(to right, #000000, #596165, #000000);
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 99.7%;
     height: 50px;
     line-height: 50px;
     border: solid;
@@ -457,7 +457,7 @@ text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
 	border-color: #020202;
 	width: 71%;
 	/*margin: 10px 10px 10px 10px;*/
-	height: 50px;
+	height: 42px;
 	/* margin-right: 10px; */
 }
 .inscription {
@@ -707,6 +707,7 @@ text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
 	border-color: #020202;
 	margin: auto;
 	text-align: center;
+	padding-bottom: 5px;
 }
 
 .w-75 {
@@ -716,16 +717,4 @@ text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
 	border : solid;
 	height: 538px;
 	border-color: #020202;
-}
-.deconnexion {
-    background: linear-gradient(#ff0e0e, #5f0909);
-}
-.deconnexion:hover {
-    background: linear-gradient(#ccc9c9, #403d3b)
-}
-.monprofil {
-    background: linear-gradient(#9cd9e6, #2381c3);
-}
-.monprofil:hover {
-    background: linear-gradient(#ccc9c9, #403d3b)
 }
