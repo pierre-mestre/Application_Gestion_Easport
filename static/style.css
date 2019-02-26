@@ -32,13 +32,13 @@ img.superpose {
    margin: -100px 0px 0px -95px;
 }
 #img_3 {
-   z-index: 13;
+   z-index: 12;
    height: auto;
    width: 100px;
-   margin: 170px 0 0 42px;
+   margin: 114px 0 0 42px;
 }
 #img_4{
-   z-index: 12;
+   z-index: 13;
    margin: 91px 0 0 -66px;
    width: 315px;
    height: auto;
@@ -507,6 +507,17 @@ text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
 	max-height: 650px;
 	overflow: auto;
 }
+.bleu{
+	grid-column: 1/2;
+}
+.rouge{
+	grid-column: 2/3;
+}
+.grid{
+	display: inline-grid;
+	grid-template-columns: 200% 200%;
+	float: left;
+}
 
 .kiki::-webkit-scrollbar{
   width: 5px;
@@ -518,6 +529,9 @@ text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
   width: 5px;
   height: 8px;
   background-color: #aaa; /* or add it to the track */
+}
+.racrac{
+
 }
 
 .filtre{
