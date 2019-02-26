@@ -609,7 +609,7 @@ body{
 	padding: 0%;
 	margin: 0;
 }
-.rondb{width: 30px;height: 30px;background-size: 100%;display: block;border: 2px solid;border-radius: 147px;background: url(IMAGE/fond.jpg) no-repeat center fixed;margin-left: 5px;margin-right: 5px;margin-top: auto;margin-bottom: auto;border-color: #1d1163c7;}
+.rondb{width: 30px;height: 30px;background-size: 100%;display: block;border: 2px solid;border-radius: 147px;background: url(IMAGE/fond.jpg) no-repeat center fixed;margin-left: auto;margin-right: auto;margin-top: auto;margin-bottom: auto;border-color: #1d1163c7;}
 .rondr{width: 30px;height: 30px;background-size: 100%;display: block;border: 2px solid;border-radius: 147px;background: url(IMAGE/fond.jpg) no-repeat center fixed;margin-left: 5px;margin-right: 5px;margin-top: auto;margin-bottom: auto;border-color: #9a0b0b;}
 
 .t{
