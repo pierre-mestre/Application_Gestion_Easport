@@ -1,5 +1,6 @@
 $(document).ready(function() {
     $('#login').on('click', '#login_submit', function () {
+        if(!$('#username').val() || !$('#password').val()) return;
         var data = {
             email: $("#username").val(),
             password: $("#password").val()
@@ -23,7 +24,7 @@ $(document).ready(function() {
 
     $('#login').on('keyup', '.form-control', function(evt){
         if(evt.keyCode === 13) $('#login_submit').trigger('click');
-    });
+    });/*
 
     let onChange = function(){
         if($('#username').val() != '' && $('#password').val() != '')
@@ -32,5 +33,5 @@ $(document).ready(function() {
             $('#login_submit').attr('disabled', true);
     };
 
-    $('#username, #password').on('input', onChange).on('change', onChange);
+    $('#username, #password').on('input', onChange).on('change', onChange);*/
 });
