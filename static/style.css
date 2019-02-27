@@ -9,9 +9,9 @@ body{
 #parent {
    position: relative;
    float: right;
-   margin: 0 250px 0 0;
+   margin: 0 250px 0 0px;
 }
-/*------*/
+/*------dd*/
 img.superpose {
    position: absolute;
   
