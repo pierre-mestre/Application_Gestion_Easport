@@ -1,0 +1,1149 @@
+body{
+	color:black;
+	margin: 0;
+	padding: 0;
+	background: url(/../static/IMAGE/fond.jpg) no-repeat center fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	width:100%;
+
+
+}
+img.superpose {
+   position: absolute;
+  
+}
+#parent{
+	margin:310px 0 0 0;
+}
+
+#img_1 {
+   z-index: 10;
+   border-radius: 50%;
+   color: black;
+   margin: -290px -92px 0px -80px;
+   border:solid;
+   background-color: black;
+   border-color: black;
+   width: 180px;
+   height: 165px;
+}
+#img_2 {
+   z-index: 11;
+   width: 370px;
+   height: 370px;
+   margin:-385px 2px 0 -175px;
+}
+#img_3 {
+   z-index: 12;
+   height: auto;
+   width: 100px;
+   margin:-170px 0px 0px -40px;
+}
+#img_4{
+   z-index: 13;
+   margin: -195px 0px 50px -148px;
+   width: 315px;
+   height: auto;
+}
+.deconnexion {
+    background: linear-gradient(#ff0e0e, #5f0909);
+}
+.deconnexion:hover {
+    background: linear-gradient(#ccc9c9, #403d3b)
+}
+.monprofil {
+    background: linear-gradient(#9cd9e6, #2381c3);
+}
+.monprofil:hover {
+    background: linear-gradient(#ccc9c9, #403d3b)
+}
+#header{
+    background: linear-gradient(to right, #000000, #596165, #000000);
+    margin: 0;
+    padding: 0;
+    width: 99.7%;
+    height: 50px;
+    line-height: 50px;
+    border: solid;
+    border-color: #ffffff;
+    box-sizing: border-box;
+}
+#button{
+	float: right;
+	width: 200px;
+	height: 44px;
+	line-height: 50px;
+	font-weight: normal;
+	border-right: solid;
+	border-left: solid;
+	border-color:  white;
+	font-size: 25px;
+	text-decoration-color: white;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-family: "Big Noodle Too", impact, sans-serif;
+}
+
+#button2{
+	float: right;
+	width: 27%;
+	height: 50px;
+	font-weight: normal;
+	font-family: "Big Noodle Too", impact, sans-serif;
+	font-size: 18px;
+	/* justify-content: space-between; */
+	/* margin: 10px 10px auto; */
+	border: solid;
+	border-color: #020202;
+	color: white;
+}
+#button3{
+	text-align: center;
+	width: 27%;
+	height: 50px;
+	font-weight: normal;
+	font-family: "Big Noodle Too", impact, sans-serif;
+	font-size: 18px;
+	/* justify-content: space-between; */
+	/* margin: 10px 10px auto; */
+	border: solid;
+	border-color: #020202;
+	color: white;
+}
+#titre{
+	position: relative;
+	display: block;
+	left: 50%;
+	margin: 0 auto;
+	transform: translateX(-50%);
+	text-align: center;
+}
+
+#blurred{
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='10');
+   
+   width: 100%;
+    position: relative;
+    margin-top: 0px;
+    padding-top: 0px;
+	grid-template-columns: 25% 48% 25%;
+    display: inline-grid;
+    justify-content:  center;
+    align-items: flex-end;
+
+      
+
+
+
+
+
+     
+	
+}
+
+#blurred10{
+margin: 0 auto;
+text-align: center;
+
+}
+#blurred11{
+margin: 0 auto;
+text-align: center;
+display: inline-grid;
+}
+#bandeau{
+
+background-color: #323335;
+
+border-radius: 10px;
+
+border : solid;
+
+border-color: #000000;
+
+text-align: center;
+
+width: 90%;
+
+height: 80px;
+
+line-height: 80px;
+
+z-index: 10;
+
+margin: 0 auto;
+
+font-family: "Big Noodle Too", impact, sans-serif;
+
+font-size: -webkit-xxx-large;
+
+color: white;
+
+-webkit-text-stroke: 1.5px #000000;
+
+text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+#icone{
+	border-radius: 50%;
+	color: black;
+	border:solid;
+	background-color: black;
+	border-color: black;
+	width: 200px;
+	height: 200px;
+	float: right;
+	margin-right: 3%;
+	margin-bottom: 3%;
+}
+#container {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 20px auto;
+}
+#mp{
+
+}
+.inputs {
+	float: right;
+	margin-right: 20px;
+	line-height: 44px;
+}
+
+.inputs2 input {
+	font-family: "Big Noodle Too", impact;
+	font-size: 20px;
+	border: solid;
+	border-color: #020202;
+	width: 71%;
+	/*margin: 10px 10px 10px 10px;*/
+	height: 50px;
+}
+.inputs5 {
+text-align: center;
+}
+
+.inputs5 input {
+	font-family: "Big Noodle Too", impact;
+	font-size: 20px;
+	border: solid;
+	border-color: #020202;
+	line-height: 50px;
+	/*margin: 10px 10px 10px 10px;*/
+	text-align: center;
+	height: 50px;
+	width: 70%;
+	align-items: center;
+	justify-content: center;
+	justify-items:center;
+}
+.inscription {
+    background: linear-gradient(#ff9500, #ff5500);
+}
+.inscription:hover {
+    background: linear-gradient(#ccc9c9, #777677);
+}
+.connexion {
+    background: linear-gradient(#282c2e, #565353);
+}
+.connexion:hover {
+    background: linear-gradient(#ccc9c9, #777677);
+}
+.inputs input {
+	font-family: "Big Noodle Too", impact;
+	font-size: 20px;
+	border: solid;
+	border-color: white;
+	vertical-align: middle;
+}
+#entete{
+ 
+}
+.backvideo{
+	width: 100%;
+	position: absolute;
+	left: 50%;
+	top: 0;
+	transform: translateX(-50%);
+	z-index: -1;
+	
+}
+#perso{
+	display: inline-grid;
+
+}
+.filtre{
+	color: white;
+	text-align: center;
+	font-family: "Big Noodle Too", impact, sans-serif;
+	font-size: -webkit-xxx-large;
+	color: white;
+	margin-top: 0;
+	margin-bottom: 0;
+	-webkit-text-stroke: 1.5px #000000;
+	text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.filtra{
+	color: white;
+	text-align: center;
+	font-family: "Big Noodle Too", impact, sans-serif;
+	font-size: xx-large;
+	color: white;
+	margin-top: 0;
+	margin-bottom: 0;
+	-webkit-text-stroke: 1.5px #000000;
+	text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.block{
+	margin: 10px 10px 10px;
+}
+.personnage{
+	width: 88px;
+	height: 152;
+	background-size: 100%;
+	display: block;
+	border: 2px solid;
+	border-radius: 10px 0;
+	background: url(IMAGE/fond.jpg) no-repeat center fixed;
+	margin: 10px;
+}
+.attaque:hover{
+	background:#f15858;
+}
+.attaque{
+	background: url(IMAGE/fond.jpg) no-repeat center fixed;
+}
+.defense:hover{
+	background:#4e58ca;
+}
+.defense{
+	background: url(IMAGE/fond.jpg) no-repeat center fixed;
+}
+.tank:hover{
+	background:#40d41a;
+}
+.tank{
+	background: url(IMAGE/fond.jpg) no-repeat center fixed;
+}
+.soutien:hover{
+	background: #9cd9e6;
+}
+.soutien{
+	background: url(IMAGE/fond.jpg) no-repeat center fixed;
+}
+.content {
+	height: auto;
+}
+
+.w-25 {
+	width: 29%;
+	background-color: #323335;
+	border-radius: 10px;
+	border : solid;
+	border-color: #020202;
+}
+
+.w-75 {
+	width: 69%;
+	background-color: #323335;
+	border-radius: 10px;
+	border : solid;
+	border-color: #020202;
+}
+.grid{
+	display: grid;
+}
+.un{
+	grid-column: 1 / 2;
+	grid-row: 1; 
+	padding: 10px;
+	  overflow: auto;
+	   	text-align: center;
+	   	height: fit-content;
+
+
+	
+	}
+.deux{
+	grid-column: 1 / 2;
+	grid-row: 2;
+	  overflow: auto;
+	  height: fit-content;
+	  	text-align: center;
+
+}
+.trois{
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	grid-column: 2 / 3;
+	grid-row: -1;
+	overflow: auto;
+	height: fit-content;
+	align-self: end;
+	width: 500px;
+	margin: 0 auto;
+}
+.sept{
+	grid-column: 2 / 3;
+	grid-row: 2;
+	overflow: auto;
+	height: fit-content;
+	align-items: center;
+	width: 48%;
+	margin: 10px auto;
+	text-align: center;
+}
+.quatre{
+  grid-column: 2 / 3;
+  grid-row: 2;
+    overflow: auto;
+    height: fit-content;
+
+}
+.cinq{
+  grid-column: 3 / 4;
+  grid-row: 1;
+  overflow: auto;
+  align-items: end;
+}
+.six{
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	overflow: auto;
+	margin: 10px auto;
+	width: 80%;
+	height: 32%;
+
+}
+.noir{
+	background-color: black;
+	z-index: 11;
+	border: solid;
+	border-radius: 10px;
+	background-color: #323335;
+	border-color: black;
+	color: white;
+	font-family: bold;
+}
+.unun{
+
+text-align: center;
+
+color: white;
+  overflow: auto;
+
+height: auto;
+
+width: auto;
+
+line-height: auto;
+
+font-family: "Big Noodle Too", impact, sans-serif;
+
+margin: auto;
+
+-webkit-text-stroke: 1.5px #000000;
+
+text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+grid-column: 2 / 4;
+
+grid-row: 1;
+
+font-size: xx-large;
+}
+.deconnexion{
+	background: linear-gradient(#b7b5b3, #5a5857);
+	border-color: white;
+	border:solid;
+	font-family: bold;
+	color: white;
+	font-family: "Big Noodle Too", impact, sans-serif;
+	font-size:25px;
+	margin: 10px;
+	padding: 3px;
+
+	text-decoration: none;
+	text-shadow: 2px 0 0 #797774, 2px 2px 0 #797774, 0 2px 0 #797774, -2px 2px 0 #797774, -2px 0 0 #797774, -2px -2px 0 #797774, 0 -2px 0 #797774, 2px -2px 0 #797774;
+}
+
+.deconnexion:hover {
+	 background: linear-gradient(#ef8e8e, #f9220c);
+	 	text-shadow: none;
+
+}
+.ajout{
+	background: linear-gradient(#b7b5b3, #5a5857);
+	border-color: white;
+	border:solid;
+	font-family: bold;
+	color: white;
+	font-family: "Big Noodle Too", impact, sans-serif;
+	font-size:25px;
+	margin: 10px;
+	padding: 3px;
+
+	text-decoration: none;
+	text-shadow: 2px 0 0 #797774, 2px 2px 0 #797774, 0 2px 0 #797774, -2px 2px 0 #797774, -2px 0 0 #797774, -2px -2px 0 #797774, 0 -2px 0 #797774, 2px -2px 0 #797774;
+}
+
+.ajout:hover {
+	 background: linear-gradient(#98d1e6, #0cacf9);
+	 text-shadow: none;
+}
+.ajout1{
+	background: linear-gradient(#b7b5b3, #5a5857);
+	border-color: white;
+	border:solid;
+	font-family: bold;
+	color: white;
+	font-family: "Big Noodle Too", impact, sans-serif;
+	font-size:25px;
+	margin: 10px;
+	padding: 3px;
+
+	text-decoration: none;
+	text-shadow: 2px 0 0 #797774, 2px 2px 0 #797774, 0 2px 0 #797774, -2px 2px 0 #797774, -2px 0 0 #797774, -2px -2px 0 #797774, 0 -2px 0 #797774, 2px -2px 0 #797774;
+}
+
+.ajout1:hover {
+	 background:  linear-gradient(#cc98e6, #800e88);
+	 text-shadow: none;
+}
+#avatar{
+	border-radius: 50%;
+	color: black;
+	border:solid;
+	background-color: black;
+	border-color: black;
+	width: 150px;
+	height: 150px;
+	float: left;
+	/* margin-right: 3%; */
+	margin: 10px;
+	grid-column: 1 / 2;
+	grid-row: 1;
+	/* margin-bottom: 3%; */
+}
+.avatar2{
+
+}
+.gauche{
+
+
+}
+.centre{
+	margin: 0 auto 15px auto;
+
+}
+.droite{
+	
+text-align: center;
+}
+.i{
+	display: block;
+}
+.uni{
+	grid-column: 1 / 2;
+	grid-row: 1; 
+	overflow: auto;
+	text-align: center;
+
+
+	
+	}
+.deuxi{
+	grid-column: 1 / 2;
+	grid-row: 2;
+	  overflow: auto;
+
+}
+.troisi{
+	grid-column: 2 / 3;
+	grid-row: -1;
+	  overflow: auto;
+
+}
+.quatrei{
+  grid-column: 2 / 3;
+  grid-row: 2;
+    overflow: auto;
+
+}
+.cinqi{
+  grid-column: 4 / 4;
+  grid-row: 1;
+  overflow: auto;
+}
+.sixi{
+ grid-column: 3 / 4;
+ grid-row: 2;
+ overflow: auto;
+}
+
+.ti{
+	text-align: center;
+	margin: 5px;
+	font-size: xx-large;
+	text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	font-family: "Big Noodle Too", impact, sans-serif;
+	margin-top: 15px;
+	align-self: center;
+	align-items: center;
+	vertical-align: all;
+}
+.left{
+	text-align: left;
+}
+
+.margintop{
+	margin-top: 10px;
+}
+.marginleft{
+	margin-left: 15px;
+}
+.a{
+	display: block;
+}
+.j1{
+	justify-items: center;
+	align-self: auto;
+	margin-top: 25px;
+	grid-column: 2 / 3;
+}
+.j{
+}
+.j0{
+
+	grid-column: 1 / 2;
+	margin: 0;
+	
+	 
+
+}
+/* Aspect des checkboxes */
+/* :before sert ÃƒÂ  crÃƒÂ©er la case ÃƒÂ  cocher */
+ .check{
+  margin-right: 10px;
+}
+ 
+
+}
+.j2{
+	grid-column: 2 / 3;
+	justify-items: center;
+}
+.j3{
+	grid-column: 3 / 4;
+	justify-items: center;
+}
+.j4{
+	grid-column: 4 / 10;
+	margin: 25px;
+	justify-items: center;
+}
+.j5{grid-column: 4 / 5;justify-items: center;
+}
+.j6{
+	grid-column: 5 / 6;
+	justify-items: center;
+}
+.j7{
+
+grid-column: 6 / 7;
+
+justify-items: center;
+}
+.j{
+		display: block;
+		justify-items: center;
+}
+.jj{
+		display: inline-grid;
+		float: center;
+		padding: 0%;
+		margin: 0;
+}
+.rondb{width: 30px;height: 30px;background-size: 100%;display: block;border: 2px solid;border-radius: 147px;background: url(IMAGE/fond.jpg) no-repeat center fixed;margin-left: 5px;margin-right: 5px;margin-top: auto;margin-bottom: auto;border-color: #1d1163c7;}
+.rondr{width: 30px;height: 30px;background-size: 100%;display: block;border: 2px solid;border-radius: 147px;background: url(IMAGE/fond.jpg) no-repeat center fixed;margin-left: 5px;margin-right: 5px;margin-top: auto;margin-bottom: auto;border-color: #9a0b0b;}
+
+.t{
+	line-height: 152px;
+
+}
+.medaille{
+	font-size: 15px;
+}
+.pe{
+	border: 6px solid;
+	
+	border-radius: 10px;
+	margin: 30px;
+}
+#pe1{
+	text-decoration: underline;
+	margin-top: 10px; 
+	
+}
+.personnageb{
+	width: 88px;
+	height: 152;
+	background-size: 100%;
+	display: block;
+	border: 2px solid;
+	border-radius: 10px 0;
+	background: url(IMAGE/fond.jpg) no-repeat center fixed;
+	margin: 10px;
+	border-color: #0e3f7d;
+}
+.personnager{
+	width: 88px;
+	height: 152;
+	background-size: 100%;
+	display: block;
+	border: 2px solid;
+	border-radius: 10px 0;
+	background: url(IMAGE/fond.jpg) no-repeat center fixed;
+	margin: 10px;
+	border-color: #9a0b0b;
+}
+.or{
+	color: #dab55d;
+	grid-column: 3 / 4;
+	justify-items: center;
+	text-align: center;
+	margin: 10px;
+}
+.argent{
+	color: #bdb3b3;
+	grid-column: 4 / 5;
+	text-align: center;
+	margin: 10px;
+}
+.bronze{
+	color: #b15f45;
+	text-align: center;
+	grid-column: 5 / 6;
+	margin: 10px 15px 10px 10px;
+}
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  margin-top: -35px;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+  border: solid;
+  border-color: #0e3f7d;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #3fff00;
+  border: solid;
+  border-color: #0e3f7d;
+  margin-left: 0px;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+  content: ""
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #ffffff;
+}
+
+.aa{
+	display: inline-grid;
+	width: 97%;
+	align-items: center;
+}
+.aaa{
+	display: inline-grid;
+	justify-items: center;
+	text-align: center;
+	width: 97%;
+	margin: 5px;
+	border: solid;
+	border-radius: 10px;
+}
+.bb{
+	display: inline-grid;
+	grid-column: 2 / 3;
+}
+.rr{
+	  align-items: center;
+}
+.ss{
+	display: inline-grid;
+  align-items: end;
+
+}
+.oo{
+	margin: 15px;
+	grid-column: 2 / 3;
+	font-size: 25px;
+}
+.zz{
+		grid-column: 1 / 2;
+
+}
+.trait{
+	width: 100%;
+	color: blue;
+	height: 5px;
+}
+.rouge{
+	grid-column: 2 / 3;
+	background: linear-gradient(to right, #c33b3b, #ffb2b2, #8a1e1e);
+	border-color: #9a0b0b;
+}
+.bleu{
+	grid-column: 1 / 2;
+		background: linear-gradient(to right, #2381c3, #64c1d6, #2381c3);
+		border-color: #0e3f7d;
+
+}
+#trait_dessus { color:#ffff; width : 100%; }
+hr.bleu{height: 2px;border-color: #0e3f7d;background: #0e3f7d;}
+hr.rouge{height: 2px;border-color: #9a0b0b;background: #9a0b0b;}
+.rondn{width: 75px;height: 75px;background-size: 100%;display: block;border: 4px solid;border-radius: 147px;background: url(IMAGE/fond.jpg) no-repeat center fixed;margin-left: 5px;margin-right: 5px;margin-top: auto;margin-bottom: auto;border-color: #000000;}
+.n1{
+	grid-column: 1 / 2;
+	justify-items: center;
+	margin: 10px;
+	background: #cd1600;
+}
+.n2{
+	grid-column: 2 / 3;
+	justify-items: center;
+	margin: 10px;
+	background: #006bb7;
+}
+.n3{
+	grid-column: 3 / 4;
+	justify-items: center;
+	margin: 10px;
+	background: #00ad14;
+}
+.n4{
+	grid-column: 4 / 5;
+	justify-items: center;
+	margin: 10px;
+	background: #7cc8ff;
+}
+.n1:hover{
+background: #808dc1;
+}
+.n2:hover{
+	background: #808dc1;
+}
+.n3:hover{
+	background: #808dc1;
+}
+.n4:hover{
+	background: #808dc1;
+}
+.uu{
+	text-align: center;
+	font-size: x-large;
+	text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	font-family: "Big Noodle Too", impact, sans-serif;
+	align-self: center;
+	align-items: center;
+	margin-bottom: 15px;
+}
+.ww{
+		justify-items: center;
+
+}
+.w1{
+	grid-column: 1 / 2;
+	justify-items: center;
+}
+.w2{
+	grid-column: 2 / 3;
+	justify-items: center;
+}
+
+.w3{
+	grid-column: 3 / 4;
+	justify-items: center;
+}
+
+.w4{
+	grid-column: 4 / 5;
+	justify-items: center;
+}
+
+.w5{
+	grid-column: 5 / 6;
+	justify-items: center;
+}
+
+.w6{
+	grid-column: 6 / 7;
+	justify-items: center;
+}
+
+.iun{
+
+	grid-column: 1 / 2;
+	justify-items: center;
+}
+.ideux{
+	grid-column: 2 / 3;
+	justify-items: center;
+
+}
+.itrois{
+grid-column: 3 / 4;
+	justify-items: center;
+}
+
+.iquatre{
+grid-column: 4 / 5;
+	justify-items: center;
+}
+
+.icinq{
+grid-column: 5 / 6;
+	justify-items: center;
+}
+
+.isix{
+grid-column: 6 / 7;
+	justify-items: center;
+}
+
+.isept{
+grid-column: 7 / 8;
+	justify-items: center;
+}
+
+.ihuit{
+grid-column: 8 / 9;
+	justify-items: center;
+}
+
+.ineuf{
+grid-column: 9 / 10;
+	justify-items: center;
+}
+
+.idix{
+grid-column: 10 / 11;
+	justify-items: center;
+}
+.ionze{
+grid-column: 11 / 12;
+	justify-items: center;
+}
+.idouze{
+grid-column: 12 / 13;
+	justify-items: center;
+}
+.itreize{
+grid-column: 13 / 14;
+	justify-items: center;
+}
+.iquatorze{
+grid-column: 14 / 15;
+	justify-items: center;
+}
+.iquinze{
+grid-column: 15 / 16;
+	justify-items: center;
+}
+
+
+
+
+.df{
+	display: inline-grid;
+	justify-content: center;
+	justify-items:center;
+}
+.econe{
+	margin: 5px 0px 5px 0px;
+	border:2px solid;
+	border-radius: 10px;
+	width: 85%;
+	height: auto;
+
+}
+.econa{
+	margin: 5px;
+	border:2px solid;
+	border-radius: 10px;
+	width: 85%;
+	height: auto;
+
+}
+.econe:hover{
+	margin: 5px 0px 5px 0px;
+	border:2px solid;
+	border-radius: 10px;
+	width: 90%;
+	height: auto+5;
+
+}
+.mostly-customized-scrollbar::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: #aaa; /* or add it to the track */
+}
+/* Add a thumb */
+.mostly-customized-scrollbar::-webkit-scrollbar-thumb {
+    background: #000; 
+}
+
+.fun{
+	grid-column: 2 / 3;
+	justify-items: center;
+	height: 30px;
+	margin: 10px;
+	line-height: 30px;
+}
+
+.fdeux{
+	grid-column: 1 / 2;
+	justify-items: center;
+}
+.ftrois{
+	grid-column: 1 / 2;
+	  align-items: center;
+
+}
+.gragra{
+	background: linear-gradient( to right, #403939, #a7abad, #403939);
+	border: 2px solid;
+	width: 95%;
+	border-color: black;
+}
+.gragra:hover{
+	background: linear-gradient( to right, #c15757, #f9d0d0, #c15757);
+}
+.grogro{
+	width: 71%;
+}
+.fa{
+	
+width: 71%;
+}
+.fro{
+
+}
+.fri{
+	width: 71%
+}
+.wx{
+		font-family: "Big Noodle Too", impact;
+	font-size: 20px;
+	border: solid;
+	border-color: #020202;
+	color: white;
+	text-decoration: none;
+	text-decoration-color:white;
+	
+	height: 50px;
+	line-height: 50px;
+	/*margin: 10px 10px 10px 10px;*/
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	justify-items:center;
+	
+}
+.rac{
+	width: 70%;
+	margin: 0 auto;
+}
+.roc{
+	width: 100%;
+}
+.wxa{
+		font-family: "Big Noodle Too", impact;
+		font-size: xx-large;
+		border: solid;
+		border-color: #020202;
+		color: white;
+		text-decoration: none;
+		text-decoration-color:white;
+		height: 50px;
+		line-height: 50px;
+		/*margin: 10px 10px 10px 10px;*/
+		text-align: center;
+		align-items: center;
+		justify-content: center;
+		justify-items:center;
+		color: white;
+}
+.space{
+	margin-bottom: 50px;
+
+}
+.marginG{
+	
+	text-align: center;
+	margin: 10px auto 10px auto;
+}

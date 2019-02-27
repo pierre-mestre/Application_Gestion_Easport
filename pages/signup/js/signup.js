@@ -25,13 +25,13 @@ $(document).ready(function() {
     });
 
     let onChange = function(){
-        if($('#fname').val() != '' && $('#lname').val() != '' && $('#mail').val() != ''
-            && $('#password').val() != '' && $('#pseudo').val() != '')
+        if($('#mail').val() != '' && $('#password').val() != '' && $('#pseudo').val() != ''){
             $('#signup_submit').attr('disabled', false);
+        }
         else
             $('#signup_submit').attr('disabled', true);
     };
 
-    $('#fname, #lname, #mail, #password, #pseudo').on('input', onChange).on('change', onChange);
+    $('#mail, #password, #pseudo').on('input', onChange).on('change', onChange);
     $
 });

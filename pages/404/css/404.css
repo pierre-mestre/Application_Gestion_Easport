@@ -7,6 +7,9 @@ body{
 
 	background: url(/../static/IMAGE/404.jpg);
 }
+.underline{
+	text-decoration:none;
+}
 .mort{
 
 text-align: center;

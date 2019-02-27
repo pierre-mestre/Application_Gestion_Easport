@@ -26,12 +26,14 @@ img.superpose {
    width: 180px;
    height: 165px;
 }
+
 #img_2 {
    z-index: 11;
    width: 370px;
    height: 370px;
    margin: -100px 0px 0px -95px;
 }
+
 #img_3 {
    z-index: 12;
    height: auto;
@@ -225,6 +227,18 @@ text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
 }
 .connexion:hover {
     background: linear-gradient(#ccc9c9, #777677);
+}
+.deconnexion {
+    background: linear-gradient(#ff0e0e, #5f0909);
+}
+.deconnexion:hover {
+    background: linear-gradient(#ccc9c9, #403d3b)
+}
+.monprofil {
+    background: linear-gradient(#9cd9e6, #2381c3);
+}
+.monprofil:hover {
+    background: linear-gradient(#ccc9c9, #403d3b)
 }
 .inputs input {
 	font-family: "Big Noodle Too", impact;

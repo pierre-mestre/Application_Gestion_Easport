@@ -1,4 +1,4 @@
-$(document).ready(function() {
+    $(document).ready(function() {
     $('#index').on('click', '#button2.connexion', function () {
         var data = {
             battletag: $("#battletag_search").val()

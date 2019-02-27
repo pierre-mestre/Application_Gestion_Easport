@@ -84,9 +84,10 @@ var setPages = function(itemsPath){
     		if(fs.existsSync(`${path}/${element}Post.js`)){
     			listPages[element] = require(`${path}/${element}Post`);
     			Object.values(listPages[element]).forEach(function(postFunc){
+    				var postUrl = url;
     				if(typeof postFunc !== 'function') return;
-    				if(postFunc.name !== element) url += `/${postFunc.name}`;
-    				app.post(url, function(req, res){ postFunc(req, res, dao, element) });
+    				postUrl += `/${postFunc.name}`;
+    				app.post(postUrl, function(req, res){ postFunc(req, res, dao, element) });
     			});
     		}
 
@@ -95,9 +96,10 @@ var setPages = function(itemsPath){
     		if(fs.existsSync(`${path}/${element}Get.js`)){
     			listPages[element] = require(`${path}/${element}Get`);
     			Object.values(listPages[element]).forEach(function(getFunc){
+    				var getUrl = url;
     				if(typeof getFunc !== 'function') return;
-    				if(getFunc.name !== element) url += `/${getFunc.name}`;
-    				app.get(url, function(req, res){ getFunc(req, res, getIndex, element) });
+    				if(element != getFunc.name) getUrl += `/${getFunc.name}`;
+    				app.get(getUrl, function(req, res){ getFunc(req, res, getIndex, element) });
     			});
     			if(listPages[element][element] === 'undefined'){
     				app.get(url, function(req, res) {
