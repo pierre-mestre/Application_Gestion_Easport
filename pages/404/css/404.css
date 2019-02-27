@@ -2,9 +2,10 @@ body{
 	color:black;
 	margin: 0;
 	padding: 0;
-	background: url(IMAGE/404.jpg);
 	-webkit-background-size: cover;
 	background-size: cover;
+
+	background: url(/../static/IMAGE/404.jpg);
 }
 .mort{
 
