@@ -60,6 +60,12 @@ img.superpose {
 .monprofil:hover {
     background: linear-gradient(#ccc9c9, #403d3b)
 }
+.deconnexion {
+    background: linear-gradient(#ff0e0e, #5f0909);
+}
+.deconnexion:hover {
+    background: linear-gradient(#ccc9c9, #403d3b)
+}
 
 #header{
 	background: linear-gradient(to right, #000000, #596165, #000000);
@@ -118,7 +124,7 @@ img.superpose {
 #titre{
 	position: relative;
 	display: block;
-	left: 50%;
+	left: 68%;
 	margin: 0px auto;
 	transform: translateX(-50%);
 	text-align: center;
@@ -269,7 +275,7 @@ img.superpose {
 	color: white;
 	text-align: center;
 	font-family: "Big Noodle Too", impact, sans-serif;
-	font-size: xx-large;
+	font-size: x-large;
 	color: white;
 	margin-top: 0;
 	margin-bottom: 0;
