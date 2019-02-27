@@ -1,5 +1,6 @@
 $(document).ready(function() {
     $('#login').on('click', '#login_submit', function () {
+        console.log('Connecting...');
         if(!$('#username').val() || !$('#password').val()) return;
         var data = {
             email: $("#username").val(),
@@ -24,7 +25,8 @@ $(document).ready(function() {
 
     $('#login').on('keyup', '.form-control', function(evt){
         if(evt.keyCode === 13) $('#login_submit').trigger('click');
-    });/*
+    });
+    /*
 
     let onChange = function(){
         if($('#username').val() != '' && $('#password').val() != '')
