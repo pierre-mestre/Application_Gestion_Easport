@@ -17,7 +17,11 @@ $(document).ready(function() {
                 return;
             }
             else {
-                
+                const stats = json.stats;
+                $('#img_1').attr('src', stats.portrait);
+                $('#img_2').attr('src', stats.levelFrame);
+                $('#img_3').attr('src', stats.rank_img);
+                $('#img_4').attr('src', stats.star);
             }
         }); // parses response to JSON
     });

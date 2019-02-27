@@ -34,13 +34,17 @@
 							<p class="filtre">STATISTIQUES:</p>
 							<!--<img src="https://d1u1mce87gyfbn.cloudfront.net/game/unlocks/0x0250000000000EF7.png" id="icone">-->
 							<div id="parent" class="content">
+								<!-- ICON -->
 								<img id="img_1" class="superpose" src="https://d1u1mce87gyfbn.cloudfront.net/game/unlocks/0x0250000000000EF7.png" alt="..." />
+								<!-- BORDER -->
 								<img id="img_2" class="superpose" src="https://d15f34w2p8l1cc.cloudfront.net/overwatch/45cc69ca29f3981fa085b5337d2303a4eb555853daae1c29351b7ba46b27bbcd.png" alt=" " />
+								<!-- RANK -->
 								<img id="img_3" class="superpose" src="https://d1u1mce87gyfbn.cloudfront.net/game/rank-icons/season-2/rank-7.png" alt=" " />
+								<!-- STARS -->
 								<img id="img_4" class="superpose" src="https://d15f34w2p8l1cc.cloudfront.net/overwatch/426c754c76cd12e6aacd30293a67363571341eea37880df549d3e02015a588fe.png"/> 
 							</div>
-							<div class="dradra racrac">$PSEUDO</div>
-							<div class="level">$NIVEAU</div>
+							<div id="stats_pseudo" class="dradra racrac">-</div>
+							<div id="stats_niveau" class="level">-</div>
 							<div class="grid">
 
 								<div class="bleu dradrar">
@@ -49,13 +53,13 @@
 											PARTIES NORMALES
 										</div>
 										<div id="trait_dessus"><hr class="bleur"> </div>
-										<p class="gaga">TEMPS DE JEU: $TIME</p>
+										<p class="gaga">TEMPS DE JEU: <span id="stats_n_time">-</span></p>
 										<div id="trait_dessus"><hr class="bleur"> </div>
 										<div>
 											<div class="medaille or  ">
 												<div class="gridrr z">
 													<img src="../static/IMAGE/or.png" class="rondb  i a ">
-													<div class="deux">VICTOIRES: $nb</div>
+													<div class="deux">VICTOIRES: <span id="stats_n_">-</span></div>
 												</div>
 
 											</div>
@@ -77,16 +81,16 @@
 											COMPÉTITION
 										</div>
 										<div id="trait_dessus"><hr class="rouger"> </div>
-										<p class="gaga">TEMPS DE JEU: $TIME</p>
+										<p class="gaga">TEMPS DE JEU: <span id="stats_c_time">-</span></p>
 										<div id="trait_dessus"><hr class="rouger"> </div>
-										<p class="gaga">RANG: $RANG</p>
-										<p class="gaga">PARTIES JOUÉES: $nb</p>
+										<p class="gaga">RANG: <span id="stats_c_rank">-</span></p>
+										<p class="gaga">PARTIES JOUÉES: <span id="stats_c_played">-</span></p>
 										<div id="trait_dessus"><hr class="rouger"> </div>
 										<div>
 											<div class="medaille or ">
 												<div class="gridr">
 													<img src="../static/IMAGE/or.png" class="rondr  i a ">
-													<div class="deux">VICTOIRES: $nb</div>
+													<div class="deux">VICTOIRES: <span id="stats_c_won">-</span></div>
 												</div>
 
 											</div>
@@ -94,13 +98,13 @@
 											<div class="medaille orr ">
 												<div class="gridr">
 													<img src="../static/IMAGE/argent.png" class="rondr  i a ">
-													<div class="deux">ÉGALITÉ: $nb</div>
+													<div class="deux">ÉGALITÉ: <span id="stats_c_draw">--</span></div>
 												</div>
 											</div>
 											<div class="medaille orrr ">
 												<div class="gridr">
 													<img src="../static/IMAGE/bronze.png" class="rondr  i a ">
-													<div class="deux">DÉFAITES: $nb</div>
+													<div class="deux">DÉFAITES: <span id="stats_c_lose">---</span></div>
 												</div>
 											</div>
 										</div>
