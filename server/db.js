@@ -1,6 +1,6 @@
 const {Pool, Client} = require('pg');
 const pool = new Pool({
-	connectionString: 'postgresql://postgres:root@localhost:5432/mycoach'
+	connectionString: 'postgres://kwuirqzxdicrii:f357dbfae392af8552bba96261e2f3f2f93de40934de7ad59a4497ba0b71f1f9@ec2-46-137-121-216.eu-west-1.compute.amazonaws.com:5432/dfb0n7aqubcfok'
 });
 
 const schema = 'public';

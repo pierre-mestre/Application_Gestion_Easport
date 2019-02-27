@@ -25,7 +25,8 @@ $(document).ready(function() {
     });
 
     let onChange = function(){
-        if($('#mail').val() != '' && $('#password').val() != '' && $('#pseudo').val() != ''){
+        if($('#mail').val() != '' && $('#password').val() != '' && $('#pseudo').val() != ''
+            && $('#password').val() == $('#password_confirm').val()){
             $('#signup_submit').attr('disabled', false);
         }
         else
@@ -33,5 +34,4 @@ $(document).ready(function() {
     };
 
     $('#mail, #password, #pseudo').on('input', onChange).on('change', onChange);
-    $
 });
