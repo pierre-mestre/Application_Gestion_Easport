@@ -3,7 +3,7 @@ $(document).ready(function() {
         var data = {
             battletag: $("#battletag_search").val()
         };
-        /*fetch("/login/post_login", {
+        fetch("/index/api_get_player", {
             method: "POST", // *GET, POST, PUT, DELETE, etc.
             headers: {
                 "Content-Type": "application/json; charset=utf-8",
@@ -12,14 +12,13 @@ $(document).ready(function() {
         })
         .then(response => response.json())
         .then(json => {
-            if(!json.found){
-
+            if(!json.stats){
+                alert('nothing');
                 return;
             }
             else {
-
+                
             }
-        }); // parses response to JSON*/
-        alert(data.battletag);
+        }); // parses response to JSON
     });
 });
