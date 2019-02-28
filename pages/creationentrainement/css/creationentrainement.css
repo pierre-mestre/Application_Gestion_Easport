@@ -83,6 +83,7 @@ background: url(/../static/IMAGE/fond.jpg) no-repeat center fixed;
     /* text-align: center; */
     justify-content: center align-items: center align-self: center;
 }
+
 #blurred{
 	-moz-filter: blur(10px);
 	-o-filter: blur(10px);
@@ -403,12 +404,6 @@ background: url(/../static/IMAGE/fond.jpg) no-repeat center fixed;
 
 	font-size: xx-large;
 }
-.deconnexion {
-    background: linear-gradient(#ff0e0e, #5f0909);
-}
-.deconnexion:hover {
-    background: linear-gradient(#ccc9c9, #403d3b)
-}
 .reconnexion{
 	background: linear-gradient(#b7b5b3, #5a5857);
 	border-color: white;
@@ -424,6 +419,12 @@ background: url(/../static/IMAGE/fond.jpg) no-repeat center fixed;
 	text-shadow: 2px 0 0 #797774, 2px 2px 0 #797774, 0 2px 0 #797774, -2px 2px 0 #797774, -2px 0 0 #797774, -2px -2px 0 #797774, 0 -2px 0 #797774, 2px -2px 0 #797774;
 }
 
+.deconnexion {
+    background: linear-gradient(#ff0e0e, #5f0909);
+}
+.deconnexion:hover {
+    background: linear-gradient(#ccc9c9, #403d3b)
+}
 .ajout{
 	background: linear-gradient(#b7b5b3, #5a5857);
 	border-color: white;
@@ -484,6 +485,10 @@ background: url(/../static/IMAGE/fond.jpg) no-repeat center fixed;
 
 
 }
+.centre{
+
+
+}
 .dradrar{
 	color: white;
 	text-align: center;
@@ -494,10 +499,6 @@ background: url(/../static/IMAGE/fond.jpg) no-repeat center fixed;
 	margin-bottom: 0;
 	-webkit-text-stroke: 1.5px #000000;
 	text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-}
-.centre{
-
-
 }
 .droite{
 	
