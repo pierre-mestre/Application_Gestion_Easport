@@ -1,5 +1,5 @@
 		
-		<div>
+		<div id="create_team">
 			<a href="/index"><div id="titre"><img src="../static/IMAGE/titre.png"></div></a>
 
 			<div id="blurred">
@@ -15,46 +15,38 @@
 					<div class="content w-25 "><p class="filtre">RECHERCHER JOUEUR:</p>
 
 						<div class="inputs2 block">
-							<input type="text" name="BATTLE TAG" placeholder="BATTLE TAG">
-							<button id="button2" class="connexion" type="submit">AJOUTER</button>
+							<input id="battletag_player" type="text" name="BATTLE TAG" placeholder="BATTLE TAG">
+							<button id="add_player" class="connexion button2" type="submit">AJOUTER</button>
 						</div>
 					</div>
 
 					<div class="content w-75 ">
 						<div class="mpmp aa">
-						<p class="filtrer un">NOM D'EQUIPE:</p> <input type="text" name="login" placeholder="NOM EQUIPE" class="input3 deux">
+						<p class="filtrer un">NOM D'EQUIPE:</p> <input id="team_name" type="text" name="login" placeholder="NOM EQUIPE" class="input3 deux">
 						</div>
 						<div class="bleu">
 							<div class="inlinea">
-								
-								
-								<img src="../static/IMAGE/fond.jpg" class="personnageb w1 hero e1">							
-								<div class="joueur e11 filtrea">$JOUEUR1</div>
+								<img src="../static/IMAGE/fond.jpg" class="personnageb w1 hero e1">			
 
-								
+								<div id="player_1" class="joueur e11 filtrea">- - -</div>
+
 								<img src="../static/IMAGE/fond.jpg" class="personnageb w1 hero e2">								
-								<div class="joueur e22 filtrea">$JOUEUR2</div>
-
+								<div id="player_2" class="joueur e22 filtrea">- - -</div>
 								
 								<img src="../static/IMAGE/fond.jpg" class="personnageb w1 hero e3">								
-								<div class="joueur e33 filtrea">$JOUEUR3</div>
-
+								<div id="player_3" class="joueur e33 filtrea">- - -</div>
 								
 								<img src="../static/IMAGE/fond.jpg" class="personnageb w1 hero e4">							
-								<div class="joueur e44 filtrea">$JOUEUR4</div>
-
+								<div id="player_4" class="joueur e44 filtrea">- - -</div>
 								
 								<img src="../static/IMAGE/fond.jpg" class="personnageb w1 hero e5">								
-								<div class="joueur e55 filtrea">$JOUEUR5</div>
-
+								<div id="player_5" class="joueur e55 filtrea">- - -</div>
 								
 								<img src="../static/IMAGE/fond.jpg" class="personnageb w1 hero e6">								
-								<div class="joueur e66 filtrea">$JOUEUR6</div>
+								<div id="player_6" class="joueur e66 filtrea">- - -</div>
 							</div>
 						</div>
-						<div class="grid  rac gragras marginG "><a href="..." class="wxa " type="submit">SUPPRIMER</a>
-					</div>
-						<div class="grid  rac gragra marginG "><a href="..." class="wxa " type="submit">ENREGISTRER</a>
+						<div id="submit_team" class="grid  rac gragra marginG "><a class="wxa " type="submit">ENREGISTRER</a>
 					</div>
 					</div>
 					

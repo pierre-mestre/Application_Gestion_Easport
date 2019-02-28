@@ -7,7 +7,8 @@ module.exports = {
 	},
 
 	setUserBySignUp: function(mail, password, pseudo, callback_s, callback_e){
-		db.get('*', 'users', 'mail=$1', [mail], function(result) {
+		const values = [mail, pseudo];
+		db.get('*', 'users', 'mail=$1 OR pseudo=$2', values, function(result) {
 			if(result.rowCount > 0) {
 				callback_e(mail);
 			}
@@ -50,6 +51,12 @@ module.exports = {
 		});
 	},
 
+	setLinkTeam : function(idteam, idjoueur, callback){
+		const where = ['idteam', 'idjoueur'];
+		const values = [idteam, idjoueur];
+		db.set('liaison',where,values,callback);
+	},
+
 	getTeamByCoach: function(coach, callback){
 		const values = [coach];
 		db.get('*', 'team', 'coach=$1', values, callback);
@@ -64,6 +71,10 @@ module.exports = {
 			}
 		});
 
+	},
+
+	getTeamByLast : function(callback){
+		db.get('*', 'team', '1=1', [], callback);
 	},
 
 	getTrainingByCoach(coach, date, callback){
@@ -94,13 +105,22 @@ module.exports = {
                     values.push(result.rows[last].identrainement);
                     where += 'id=$'+last;
                 }
-                console.log(where,values);
                 db.get('*', 'entrainement', where, values, function(michel){
                     training.push(michel);
                     callback(training);
                 });
             }       
         });
+    },
+
+    getPlayerByPseudo(pseudo, callback){
+    	if(pseudo.length<64){
+			for(var i=pseudo.length;i<64;i++){
+				pseudo = pseudo + " ";
+			}
+		}
+    	const values = [pseudo];
+    	db.get('*', 'users', 'pseudo=$1', values, callback);
     }
 
 }

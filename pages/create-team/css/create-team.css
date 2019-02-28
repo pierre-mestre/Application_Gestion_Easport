@@ -95,7 +95,7 @@ background:  linear-gradient( to right, #0075a2, #9cd9e6, #0075a2)}
 	font-family: "Big Noodle Too", impact, sans-serif;
 }
 
-#button2{
+.button2{
 	float: right;
 	width: 27%;
 	height: 50px;
