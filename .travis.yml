@@ -7,7 +7,7 @@ deploy:
   provider: heroku
   app: application-gestion-easport
   api_key:
-    secure: "58a77282-1e4d-4467-8be4-52e6749bec54"
+    secure: 0ee0c70a-5322-4680-be60-4f62c106c1c6
 service:
   - postgresql
 before_script:
