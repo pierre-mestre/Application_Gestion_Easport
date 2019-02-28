@@ -410,6 +410,21 @@ background: url(/../static/IMAGE/fond.jpg) no-repeat center fixed;
 .deconnexion:hover {
     background: linear-gradient(#ccc9c9, #403d3b)
 }
+.reconnexion{
+	background: linear-gradient(#b7b5b3, #5a5857);
+	border-color: white;
+	border:solid;
+	font-family: bold;
+	color: white;
+	font-family: "Big Noodle Too", impact, sans-serif;
+	font-size:25px;
+	margin: 10px;
+	padding: 3px;
+
+	text-decoration: none;
+	text-shadow: 2px 0 0 #797774, 2px 2px 0 #797774, 0 2px 0 #797774, -2px 2px 0 #797774, -2px 0 0 #797774, -2px -2px 0 #797774, 0 -2px 0 #797774, 2px -2px 0 #797774;
+}
+
 .ajout{
 	background: linear-gradient(#b7b5b3, #5a5857);
 	border-color: white;
