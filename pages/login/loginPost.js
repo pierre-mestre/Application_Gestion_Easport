@@ -4,8 +4,8 @@ module.exports = {
 			if(result.rowCount == 0) req.body.connected = false;
 			else {
 				/*console.log(result.rows[0].id);
-				req.session.mail = result.rows[0].mail;
-				req.session.id = result.rows[0].id;*/
+				req.session.mail = result.rows[0].mail;*/
+				req.session.id = result.rows[0].id;
 				req.session.pseudo = result.rows[0].pseudo;
 				req.body.connected = true;
 			}
