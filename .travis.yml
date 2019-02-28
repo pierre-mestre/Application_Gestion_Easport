@@ -7,9 +7,9 @@ deploy:
   provider: heroku
   app: application-gestion-easport
   api_key:
-    secure: jwjWgc6b4wSIM3k5HUCwr/qfCWCDDIrDDNoo3AjJaU40scAytk+I9FTG63UssSOhav/Ips6aoXjx1paMQ29/wLw3y72Fy4hreVIsNQJNXe1xPeuZB5ehY7BVMKiioTQKBDTKMhCMWCmeCMBOHwy2EQclJT8eLzOWe6LFmqp8yL3StrxVvJ55uB22Iktsr5QUN52DRkuiote8Jz2d+p5N/25IZoPEelD1bdx4H6qkuOu2SopbSPIZBW4pcEc6Ta5upuqiehdHbxEFnN6RWdc9bvaI4yjMbTaHSBQBvl7ZMV6qNfijXf0qaRegcc6tET+v3AgMA4go26bWCsqwJAJ5oIBpi5ZooZepVHPuF0znEPGfzCjG3UOntxrFibYtIulECQ5MofOjplhL/d56x9kgZkU6tNn6nSroqwHbmI0ZCSGviZX/QbZjflwD6Jgd2lCdmwN+scauWTb9gXjZfqal8UJkCGJ/5ycIaYnSp0FAYStz59V14S3BXq0rKKDV3pxwqynlBR202cmlU3N2Qtt9lvsefmreKR2VrIcLIKLvAZSCgacdJY3XvFLTXTNNswZVfuYFOlLgp4af8lPysEISqTZzKPMe+qo6korhqn3rUe7+j1wd7JjHnUH6aNoo/LKwIKrpGvdEAQJcCkHm4G9eSxjY7q2NXKOybAIm0YIX2K8=
+      secure: "jaqQ7lfF5VBAtUSdnEG6uaWjHO6hFOh0O2uASV/zK89KGfVvqdqtd4MRpdnCJDzQ36uX/zs3htuOV9PVhztDR4894ugGYQwj01Qcv3USzjKS7A9Jaee9guNVpM7SNaeBN69rvKSqz/2AvnjPLRfvt5t++oku+iPK4gU+QAhs0pRpaWKi5Uk+o5Rq0j62B0Boot/zW38FdVdNHTC65NNaUjDWxykCYa8Tru7HkyaHTaaiShGqoyjs64rDti5+CEXrm7Unk7vTLM0QyXIg0hDGc2PoAiZ0GS9pjRuaK76B1rjygzt1orfGMqkU4+9gVW6BQNz45kxJwosU4GTeU8cIM+yEpjD9hqZ/TQyaLVv++4gZb8hXs5pJIMyMDY0rzWcJD4yfh7kmEvnf0PTA/TQ09JGo5MtO/Yq0ZT80I2FQZidGtXQOoE+KR429NJk7L7y+8+LtVdXXb0vr1WtnCQFw4cHmfQRoZhmonBD5J9qwgagT0nxkMny3AuMyHYy5MTMYpXvgRlK9P5XvvylUa72cyQQGC/RKLtjZTw5QsVha8X4bEoZNRbzUHxOYkf0LffO2qWp7xoxThSwQyiUQkR0HOClGdVKdRQxg/m8IFTflUzcqZySKISsm5SF0E2VcNctTXZsU2H7VxAxBl0cX5wFHMWZ+RGIdBKgLy0ALeyGeRIc="
 service:
-  - postgresql
+- postgresql
 before_script:
-  - psql -c 'create database travis_ci_test;' -U postgres
-  - psql -U postgres -d travis_ci_test -a -f ./BDD/db.sql
+- psql -c 'create database travis_ci_test;' -U postgres
+- psql -U postgres -d travis_ci_test -a -f ./BDD/db.sql
