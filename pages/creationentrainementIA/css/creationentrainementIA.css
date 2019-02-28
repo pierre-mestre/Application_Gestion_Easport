@@ -75,13 +75,13 @@ background: url(/../static/IMAGE/fond.jpg) no-repeat center fixed;
 	border-color: #020202;
 	color: white;
 }
-#titre{
-	position: relative;
-	display: block;
-	left: 50%;
-	margin: 0 auto;
-	transform: translateX(-50%);
-	text-align: center;
+#titre {
+    /* position: relative; */
+    /* display: block; */
+    /* left: 51%; */
+    margin: 0 auto 0 45%;
+    /* text-align: center; */
+    justify-content: center align-items: center align-self: center;
 }
 
 #blurred{

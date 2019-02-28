@@ -121,13 +121,13 @@ img.superpose {
 	border-color: #020202;
 	color: white;
 }
-#titre{
-	position: relative;
-	display: block;
-	left: 68%;
-	margin: 0px auto;
-	transform: translateX(-50%);
-	text-align: center;
+#titre {
+    /* position: relative; */
+    /* display: block; */
+    /* left: 68%; */
+    margin: 0 auto 0 44%;
+    /* transform: translateX(-50%); */
+    /* text-align: center; */
 }
 
 #blurred{
