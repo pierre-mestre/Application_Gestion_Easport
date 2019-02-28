@@ -3,9 +3,9 @@ module.exports = {
 		dao.getUserBySignIn(req.body.email, req.body.password, function(result) {
 			if(result.rowCount == 0) req.body.connected = false;
 			else {
-				/*console.log(result.rows[0].id);
+				console.log(result.rows[0].id);
 				req.session.mail = result.rows[0].mail;
-				req.session.id = result.rows[0].id;*/
+				/*req.session.id = result.rows[0].id;*/
 				req.session.pseudo = result.rows[0].pseudo;
 				req.body.connected = true;
 			}

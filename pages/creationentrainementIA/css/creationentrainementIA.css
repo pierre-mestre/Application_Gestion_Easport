@@ -404,25 +404,11 @@ background: url(/../static/IMAGE/fond.jpg) no-repeat center fixed;
 
 	font-size: xx-large;
 }
-.deconnexion{
-	background: linear-gradient(#b7b5b3, #5a5857);
-	border-color: white;
-	border:solid;
-	font-family: bold;
-	color: white;
-	font-family: "Big Noodle Too", impact, sans-serif;
-	font-size:25px;
-	margin: 10px;
-	padding: 3px;
-
-	text-decoration: none;
-	text-shadow: 2px 0 0 #797774, 2px 2px 0 #797774, 0 2px 0 #797774, -2px 2px 0 #797774, -2px 0 0 #797774, -2px -2px 0 #797774, 0 -2px 0 #797774, 2px -2px 0 #797774;
+.deconnexion {
+    background: linear-gradient(#ff0e0e, #5f0909);
 }
-
 .deconnexion:hover {
-	background: linear-gradient(#ef8e8e, #f9220c);
-	text-shadow: none;
-
+    background: linear-gradient(#ccc9c9, #403d3b)
 }
 .ajout{
 	background: linear-gradient(#b7b5b3, #5a5857);
@@ -487,6 +473,17 @@ background: url(/../static/IMAGE/fond.jpg) no-repeat center fixed;
 .centre{
 
 
+}
+.dradrar{
+	color: white;
+	text-align: center;
+	font-family: "Big Noodle Too", impact, sans-serif;
+	font-size: x-large;
+	color: white;
+	margin-top: 0;
+	margin-bottom: 0;
+	-webkit-text-stroke: 1.5px #000000;
+	text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 .droite{
 	

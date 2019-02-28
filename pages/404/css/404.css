@@ -7,6 +7,17 @@ body{
 
 	background: url(/../static/IMAGE/404.jpg);
 }
+.dradrar{
+	color: white;
+	text-align: center;
+	font-family: "Big Noodle Too", impact, sans-serif;
+	font-size: x-large;
+	color: white;
+	margin-top: 0;
+	margin-bottom: 0;
+	-webkit-text-stroke: 1.5px #000000;
+	text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
 .underline{
 	text-decoration:none;
 }
