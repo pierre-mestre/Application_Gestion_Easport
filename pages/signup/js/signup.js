@@ -1,5 +1,7 @@
 $(document).ready(function() {
     $('#signup').on('click', '#signup_submit', function () {
+        if($('#password').val() != $('#password_confirm').val()) return;
+        if(!$('#mail').val() || !$('#pseudo').val() || !$('#password').val()) return;
         var data = {
             mail: $('#mail').val(),
             password: $('#password').val(),
@@ -23,15 +25,4 @@ $(document).ready(function() {
                 }
             }); // parses response to JSON
     });
-
-    let onChange = function(){
-        if($('#mail').val() != '' && $('#password').val() != '' && $('#pseudo').val() != ''
-            && $('#password').val() == $('#password_confirm').val()){
-            $('#signup_submit').attr('disabled', false);
-        }
-        else
-            $('#signup_submit').attr('disabled', true);
-    };
-
-    $('#mail, #password, #pseudo').on('input', onChange).on('change', onChange);
 });
