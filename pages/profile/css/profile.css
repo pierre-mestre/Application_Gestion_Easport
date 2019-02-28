@@ -48,22 +48,16 @@ img.superpose {
    width: 315px;
    height: auto;
 }
-.reconnexion {
+.deconnexion {
     background: linear-gradient(#ff0e0e, #5f0909);
 }
-.reconnexion:hover {
+.deconnexion:hover {
     background: linear-gradient(#ccc9c9, #403d3b)
 }
 .monprofil {
     background: linear-gradient(#9cd9e6, #2381c3);
 }
 .monprofil:hover {
-    background: linear-gradient(#ccc9c9, #403d3b)
-}
-.deconnexion {
-    background: linear-gradient(#ff0e0e, #5f0909);
-}
-.deconnexion:hover {
     background: linear-gradient(#ccc9c9, #403d3b)
 }
 
@@ -121,13 +115,13 @@ img.superpose {
 	border-color: #020202;
 	color: white;
 }
-#titre {
-    /* position: relative; */
-    /* display: block; */
-    /* left: 68%; */
-    margin: 0 auto 0 44%;
-    /* transform: translateX(-50%); */
-    /* text-align: center; */
+#titre{
+	position: relative;
+	display: block;
+	left: 50%;
+	margin: 0px auto;
+	transform: translateX(-50%);
+	text-align: center;
 }
 
 #blurred{
@@ -270,17 +264,6 @@ img.superpose {
 #perso{
 	display: inline-grid;
 
-}
-.dradrar{
-	color: white;
-	text-align: center;
-	font-family: "Big Noodle Too", impact, sans-serif;
-	font-size: x-large;
-	color: white;
-	margin-top: 0;
-	margin-bottom: 0;
-	-webkit-text-stroke: 1.5px #000000;
-	text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 .filtre{
 	color: white;
@@ -553,7 +536,7 @@ img.superpose {
 
 	font-size: xx-large;
 }
-.reconnexion{
+.deconnexion{
 	background: linear-gradient(#b7b5b3, #5a5857);
 	border-color: white;
 	border:solid;
@@ -568,7 +551,7 @@ img.superpose {
 	text-shadow: 2px 0 0 #797774, 2px 2px 0 #797774, 0 2px 0 #797774, -2px 2px 0 #797774, -2px 0 0 #797774, -2px -2px 0 #797774, 0 -2px 0 #797774, 2px -2px 0 #797774;
 }
 
-.reconnexion:hover {
+.deconnexion:hover {
 	background: linear-gradient(#ef8e8e, #f9220c);
 	text-shadow: none;
 
