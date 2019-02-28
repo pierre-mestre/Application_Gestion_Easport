@@ -1,6 +1,6 @@
 module.exports = {
 	post_login: function(req, res, dao){
-		dao.getUserBySignIn(req.body.email, req.body.password, function(result) {
+		/*dao.getUserBySignIn(req.body.email, req.body.password, function(result) {
 			if(result.rowCount == 0) req.body.connected = false;
 			else {
 				console.log(result.rows[0].id);
@@ -11,6 +11,7 @@ module.exports = {
 			}
 			res.set("Content-Type", "application/json");
 			res.send(req.body);
-		});
+		});*/
+		res.redirect('/');
 	}
 }
